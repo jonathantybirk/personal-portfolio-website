@@ -1,0 +1,15 @@
+.courses {
+    padding: 20px;
+  }
+  .courses table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  .courses th, .courses td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  .courses th {
+    background-color: #f4f4f4;
+  }
+  
