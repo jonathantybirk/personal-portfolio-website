@@ -1,0 +1,10 @@
+.projects {
+    padding: 20px;
+  }
+  .projects > div {
+    margin-bottom: 20px;
+  }
+  .projects h3 {
+    margin: 0;
+  }
+  
