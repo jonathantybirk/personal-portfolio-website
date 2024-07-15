@@ -18,7 +18,7 @@ const Home: React.FC = () => {
           You can see the courses I've taken <a href="/courses">here</a>.
         </p>
         <p>
-          You can also check out <a href="path/to/your/resume">my resume</a>.
+          You can also check out <a href="resume.pdf">my resume</a>.
         </p>
       </div>
     </div>
