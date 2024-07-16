@@ -1,15 +1,39 @@
 .courses {
-    padding: 20px;
-  }
-  .courses table {
-    width: 100%;
-    border-collapse: collapse;
-  }
-  .courses th, .courses td {
-    border: 1px solid #ddd;
-    padding: 8px;
-  }
-  .courses th {
-    background-color: #f4f4f4;
-  }
-  
+  width: 70%;
+  margin: 0 auto;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+}
+th, td {
+  border: 1px solid #e1e1e1;
+  padding: 10px 20px;
+  text-align: left;
+}
+th {
+  background-color: #f5f5f5;
+}
+tr.row-gray-light {
+  background-color: #fafafa;
+}
+tr.row-gray-dark {
+  background-color: #f0f0f0;
+}
+.grade-name, .ects {
+  text-align: left;
+}
+.grade-value {
+  text-align: center;
+}
+h2 {
+  text-align: center;
+  margin-top: 20px;
+}
+.note {
+  font-size: 0.9em;
+  color: #555;
+  margin: 0 15%;
+  text-indent: 2em;
+}
