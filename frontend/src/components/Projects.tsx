@@ -1,8 +1,11 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import './Projects.css';
 
 const Projects: React.FC = () => {
-  // Placeholder data for now
+  useEffect(() => {
+    document.title = "Projects | Portfolio";
+  }, []);
+
   const projects = [
     { title: 'Boston Housing Analysis', description: 'Principal Component Analysis and Model Cross-Validation', date: 'March & April 2024', technologies: 'NumPy, pandas, scikit-learn, SciPy' },
     { title: 'Multi-Agent Pong Project', description: 'Multi-agent reinforcement learning', date: 'January 2024', technologies: 'NumPy, PyTorch, Pygame' }

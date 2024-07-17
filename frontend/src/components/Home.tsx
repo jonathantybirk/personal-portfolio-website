@@ -1,7 +1,11 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import './Home.css';
 
 const Home: React.FC = () => {
+  useEffect(() => {
+    document.title = "Home | Portfolio";
+  }, []);
+
   return (
     <div className="home">
       <img src="path/to/your/image.png" alt="Profile" />
