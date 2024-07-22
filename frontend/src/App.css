@@ -1,3 +1,8 @@
+/* Define a base font size for the entire application */
+html {
+  font-size: 16px; /* This can be adjusted based on the design requirements */
+}
+
 body, h1, h2, h3, p, ul, li {
   margin: 0;
   padding: 0;
@@ -8,6 +13,7 @@ body {
   background-color: #f8f8f8;
   color: #333;
   line-height: 1.4;
+  font-size: 1rem; /* Use rem for responsive text scaling */
 }
 a {
   color: #222;
