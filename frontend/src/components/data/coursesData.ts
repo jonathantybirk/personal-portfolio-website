@@ -93,7 +93,6 @@ const semesters = [
             average: ""
           }
         ],
-        gradeLink: "https://campusnet.dtu.dk/cnnet/Grades/Public.aspx?Id=ZTDNHK7TTA"
       },
       {
         title: "Third Semester Courses (expected)",

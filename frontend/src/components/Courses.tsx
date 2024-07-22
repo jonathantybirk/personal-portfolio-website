@@ -22,7 +22,7 @@ const Courses = () => {
                 <th>ECTS</th>
                 <th>Course Name</th>
                 <th>Assessment</th>
-                <th><a href={semester.gradeLink} target="_blank" rel="noopener noreferrer">Grade</a>↗</th>
+                <th><a href={semesters[0].gradeLink} target="_blank" rel="noopener noreferrer">Grade</a>↗</th>
                 <th>Class Avg</th>
               </tr>
             </thead>
