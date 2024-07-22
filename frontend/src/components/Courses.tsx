@@ -22,7 +22,7 @@ const Courses = () => {
                 <th>ECTS</th>
                 <th>Course Name</th>
                 <th>Assessment</th>
-                <th><a href={semesters[0].gradeLink} target="_blank" rel="noopener noreferrer">Grade</a>↗</th>
+                <th><u><a href={semesters[0].gradeLink} target="_blank" rel="noopener noreferrer">Grade</a></u>↗</th>
                 <th>Class Avg</th>
               </tr>
             </thead>
@@ -35,7 +35,7 @@ const Courses = () => {
                         <>
                           <td rowSpan={course.assessments.length}>
                             {course.link ? (
-                              <><a href={course.link} target="_blank" rel="noopener noreferrer">{course.code}</a>↗</>
+                              <><u><a href={course.link} target="_blank" rel="noopener noreferrer">{course.code}</a></u>↗</>
                             ) : (
                               course.code
                             )}
