@@ -4,6 +4,7 @@ import Header from "./components/Header";
 import Home from "./components/Home";
 import Courses from "./components/Courses";
 import Projects from "./components/Projects";
+import ProjectRoutes from "./components/projects/ProjectRoutes";
 import "./App.css";
 
 const App: React.FC = () => {
@@ -16,6 +17,7 @@ const App: React.FC = () => {
           <Route path="/home" element={<Home />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/courses" element={<Courses />} />
+          {ProjectRoutes}
           <Route path="*" element={<Navigate to="/home" replace />} />
         </Routes>
       </div>
