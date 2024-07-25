@@ -88,9 +88,9 @@ const semesters = [
             name: "Project in Statistical Evaluation for Artificial Intelligence and Data",
             link: "https://kurser.dtu.dk/course/2023-2024/02445",
             assessments: [
-              { name: "", grade: "" }
+              { name: "Individual assignment and group assignment", grade: "TBD" }
             ],
-            average: ""
+            average: "TBD"
           }
         ],
       },
@@ -103,7 +103,9 @@ const semesters = [
             ects: 5,
             name: "Advanced Engineering Mathematics 2",
             link: "https://kurser.dtu.dk/course/01037",
-            assessments: [],
+            assessments: [
+              { name: "", grade: "" }
+            ],
             average: ""
           },
           {
@@ -111,7 +113,9 @@ const semesters = [
             ects: 5,
             name: "Algorithms and Data Structures 2",
             link: "https://kurser.dtu.dk/course/02110",
-            assessments: [],
+            assessments: [
+              { name: "", grade: "" }
+            ],
             average: ""
           },
           {
@@ -119,7 +123,9 @@ const semesters = [
             ects: 5,
             name: "Probability Theory",
             link: "https://kurser.dtu.dk/course/02405",
-            assessments: [],
+            assessments: [
+              { name: "", grade: "" }
+            ],
             average: ""
           },
           {
@@ -127,7 +133,9 @@ const semesters = [
             ects: 5,
             name: "Signals and Data",
             link: "https://kurser.dtu.dk/course/02462",
-            assessments: [],
+            assessments: [
+              { name: "", grade: "" }
+            ],
             average: ""
           },
           {
@@ -135,7 +143,9 @@ const semesters = [
             ects: 5,
             name: "Artificial Intelligence and Human Cognition",
             link: "https://kurser.dtu.dk/course/02464",
-            assessments: [],
+            assessments: [
+              { name: "", grade: "" }
+            ],
             average: ""
           },
           {
@@ -143,7 +153,9 @@ const semesters = [
             ects: 5,
             name: "Machine Learning Operations",
             link: "https://kurser.dtu.dk/course/02476",
-            assessments: [],
+            assessments: [
+              { name: "", grade: "" }
+            ],
             average: ""
           }
         ]
@@ -157,7 +169,9 @@ const semesters = [
             ects: 5,
             name: "Symbolic Artificial Intelligence",
             link: "https://kurser.dtu.dk/course/02182",
-            assessments: [],
+            assessments: [
+              { name: "", grade: "" }
+            ],
             average: ""
           },
           {
@@ -165,7 +179,9 @@ const semesters = [
             ects: 5,
             name: "Active Machine Learning and Agency",
             link: "https://kurser.dtu.dk/course/02463",
-            assessments: [],
+            assessments: [
+              { name: "", grade: "" }
+            ],
             average: ""
           },
           {
@@ -173,7 +189,9 @@ const semesters = [
             ects: 5,
             name: "Introduction to Reinforcement Learning and Control",
             link: "https://kurser.dtu.dk/course/02465",
-            assessments: [],
+            assessments: [
+              { name: "", grade: "" }
+            ],
             average: ""
           },
           {
@@ -181,7 +199,9 @@ const semesters = [
             ects: 10,
             name: "Project Work - Bachelor of Artificial Intelligence and Data",
             link: "https://kurser.dtu.dk/course/02466",
-            assessments: [],
+            assessments: [
+              { name: "", grade: "" }
+            ],
             average: ""
           }
         ]
@@ -195,7 +215,9 @@ const semesters = [
             ects: null,
             name: "Computer Vision",
             link: "https://classes.cornell.edu/browse/roster/FA24/class/ECE/4230",
-            assessments: [],
+            assessments: [
+              { name: "", grade: "" }
+            ],
             average: ""
           },
           {
@@ -203,7 +225,9 @@ const semesters = [
             ects: null,
             name: "Computer Architecture",
             link: "https://classes.cornell.edu/browse/roster/FA24/class/ECE/4750",
-            assessments: [],
+            assessments: [
+              { name: "", grade: "" }
+            ],
             average: ""
           },
           {
@@ -211,7 +235,9 @@ const semesters = [
             ects: null,
             name: "Foundations of Robotics",
             link: "https://classes.cornell.edu/browse/roster/FA24/class/ECE/4770",
-            assessments: [],
+            assessments: [
+              { name: "", grade: "" }
+            ],
             average: ""
           },
           {
@@ -219,7 +245,9 @@ const semesters = [
             ects: 5,
             name: "Science, Technology and Society",
             link: "https://kurser.dtu.dk/course/42620",
-            assessments: [],
+            assessments: [
+              { name: "", grade: "" }
+            ],
             average: ""
           }
         ]
@@ -233,7 +261,9 @@ const semesters = [
             ects: 15,
             name: "Bachelor Project",
             link: "",
-            assessments: [],
+            assessments: [
+              { name: "", grade: "" }
+            ],
             average: ""
           },
           {
@@ -241,7 +271,9 @@ const semesters = [
             ects: 10,
             name: "Physics",
             link: "https://kurser.dtu.dk/course/10060",
-            assessments: [],
+            assessments: [
+              { name: "", grade: "" }
+            ],
             average: ""
           },
           {
@@ -249,7 +281,9 @@ const semesters = [
             ects: 5,
             name: "Chemistry",
             link: "https://kurser.dtu.dk/course/26021",
-            assessments: [],
+            assessments: [
+              { name: "", grade: "" }
+            ],
             average: ""
           },
           {
@@ -257,7 +291,9 @@ const semesters = [
             ects: 5,
             name: "Bioengineering",
             link: "https://kurser.dtu.dk/course/27020",
-            assessments: [],
+            assessments: [
+              { name: "", grade: "" }
+            ],
             average: ""
           }
         ]
@@ -271,7 +307,9 @@ const semesters = [
             ects: 5,
             name: "User Experience Engineering",
             link: "https://kurser.dtu.dk/course/02266",
-            assessments: [],
+            assessments: [
+              { name: "", grade: "" }
+            ],
             average: ""
           },
           {
@@ -279,7 +317,9 @@ const semesters = [
             ects: 10,
             name: "Physics",
             link: "https://kurser.dtu.dk/course/10060",
-            assessments: [],
+            assessments: [
+              { name: "", grade: "" }
+            ],
             average: ""
           },
           {
@@ -287,7 +327,9 @@ const semesters = [
             ects: 5,
             name: "Project Course",
             link: "",
-            assessments: [],
+            assessments: [
+              { name: "", grade: "" }
+            ],
             average: ""
           },
           {
@@ -295,7 +337,9 @@ const semesters = [
             ects: 30,
             name: "Various MSc courses for transitional semesters",
             link: "",
-            assessments: [],
+            assessments: [
+              { name: "", grade: "" }
+            ],
             average: ""
           }
         ]

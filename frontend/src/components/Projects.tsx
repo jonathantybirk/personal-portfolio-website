@@ -1,28 +1,21 @@
-import React, {useEffect} from 'react';
-import './Projects.css';
+import React from 'react';
+import { Link } from 'react-router-dom';
+import { projects } from '../data/projectsData';
 
-const Projects: React.FC = () => {
-  useEffect(() => {
-    document.title = "Projects | Portfolio";
-  }, []);
-
-  const projects = [
-    { title: 'Boston Housing Analysis', description: 'Principal Component Analysis and Model Cross-Validation', date: 'March & April 2024', technologies: 'NumPy, pandas, scikit-learn, SciPy' },
-    { title: 'Multi-Agent Pong Project', description: 'Multi-agent reinforcement learning', date: 'January 2024', technologies: 'NumPy, PyTorch, Pygame' }
-  ];
-
-  return (
-    <div className="projects">
-      {projects.map(project => (
-        <div key={project.title}>
-          <h3>{project.title}</h3>
-          <p>{project.description}</p>
-          <p>Date: {project.date}</p>
-          <p>Technologies: {project.technologies}</p>
+const Projects = () => {
+    return (
+        <div className="project-list">
+            {projects.map(project => (
+                <div key={project.id} className="project-summary">
+                    <h2>{project.title}</h2>
+                    <img src={project.image} alt={project.title} style={{ width: '20%', height: 'auto' }} />
+                    <p>{project.shortDescription}</p>
+                    <p><small>{project.dates}</small></p>
+                    <Link to={`/projects/${project.id}`}>Learn more</Link>
+                </div>
+            ))}
         </div>
-      ))}
-    </div>
-  );
+    );
 };
 
 export default Projects;

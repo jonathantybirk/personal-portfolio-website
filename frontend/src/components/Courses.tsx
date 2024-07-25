@@ -29,7 +29,7 @@ const Courses = () => {
             <tbody>
               {semester.courses.map((course, courseIndex) => (
                 <React.Fragment key={courseIndex}>
-                  {course.assessments.length > 0 ? course.assessments.map((assessment, assessmentIndex) => (
+                  {course.assessments.map((assessment, assessmentIndex) => (
                     <tr key={assessmentIndex} className={courseIndex % 2 === 0 ? "row-gray-light" : "row-gray-dark"}>
                       {assessmentIndex === 0 && (
                         <>
@@ -48,22 +48,7 @@ const Courses = () => {
                       <td>{assessment.grade}</td>
                       {assessmentIndex === 0 && <td rowSpan={course.assessments.length}>{course.average}</td>}
                     </tr>
-                  )) : (
-                    <tr className={courseIndex % 2 === 0 ? "row-gray-light" : "row-gray-dark"}>
-                      <td>
-                        {course.link ? (
-                          <><a href={course.link} target="_blank" rel="noopener noreferrer">{course.code}</a> ↗</>
-                        ) : (
-                          course.code
-                        )}
-                      </td>
-                      <td>{course.ects}</td>
-                      <td>{course.name}</td>
-                      <td></td>
-                      <td></td>
-                      <td></td>
-                    </tr>
-                  )}
+                  ))}
                 </React.Fragment>
               ))}
             </tbody>
