@@ -7,11 +7,14 @@ const Projects = () => {
         <div className="project-list">
             {projects.map(project => (
                 <div key={project.id} className="project-summary">
-                    <h2>{project.title}</h2>
+                    <br />
                     <img src={project.image} alt={project.title} style={{ width: '20%', height: 'auto' }} />
+                    <h2><u><Link to={`/projects/${project.id}`}>{project.title}</Link></u></h2>
+                    <p>{project.developmentTools}</p>
+                    <br />
                     <p>{project.shortDescription}</p>
                     <p><small>{project.dates}</small></p>
-                    <Link to={`/projects/${project.id}`}>Learn more</Link>
+                    <hr />
                 </div>
             ))}
         </div>

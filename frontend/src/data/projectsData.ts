@@ -19,5 +19,5 @@ export const projects = [
         longDescription: 'We trained and tested four pairs of agents playing a cooperative implementation of Pong, the classic Atari game. The agents valued game states using Deep Q-networks trained with reinforcement learning.',
         image: multiAgentPongImage,
         dates: 'January 2024'
-    }
+    },
 ];
