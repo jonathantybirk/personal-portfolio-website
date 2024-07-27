@@ -1,6 +1,5 @@
-/* Define a base font size for the entire application */
 html {
-  font-size: 16px; /* This can be adjusted based on the design requirements */
+  font-size: 16px;
 }
 
 body, h1, h2, h3, p, ul, li {
@@ -13,7 +12,7 @@ body {
   background-color: #f8f8f8;
   color: #333;
   line-height: 1.4;
-  font-size: 1rem; /* Use rem for responsive text scaling */
+  font-size: 1rem;
 }
 a {
   color: #222;
@@ -23,16 +22,13 @@ a[link-type="hidden"] {
   color: #222;
   text-decoration: none;
 }
-
 .App {
   text-align: center;
 }
-
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
-
 .App-link {
   color: #61dafb;
 }
