@@ -1,10 +1,10 @@
-.projects {
+.project-detail {
     font-size: 20px;
 }
-.projects h2 {
+.project-detail h2 {
     font-size: 24px;
 }
-.projects img {
+.project-detail img {
     width: auto;
     height: 16rem;
 }

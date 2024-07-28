@@ -1,5 +1,6 @@
 import React from 'react';
 import { useParams, Navigate } from 'react-router-dom';
+import "./ProjectDetail.css";
 import { projects } from '../data/projectsData';
 
 const Project = () => {
@@ -12,11 +13,11 @@ const Project = () => {
 
     return (
         <div className="project-detail">
-            <h1>{project.title}</h1>
-            <img src={project.image} alt={project.title} style={{ maxWidth: '20%', height: 'auto' }} />
-            <p><strong>Development Tools: </strong>{project.developmentTools}</p>
-            <p>{project.longDescription}</p>
-            <p><small>{project.dates}</small></p>
+            <div key={project.id}>
+                <br />
+                <img src={project.image} alt={project.title} />
+                <h1>{project.title}</h1>
+            </div>
         </div>
     );
 };

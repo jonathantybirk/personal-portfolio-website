@@ -7,12 +7,12 @@
   padding: 1.25rem;
 }
 
-.content {
+.home .content {
   width: 100%;
   max-width: 40rem;
 }
 
-.top-section {
+.home .top-section {
   display: flex;
   align-items: center;
   gap: 1.875rem;
@@ -24,17 +24,17 @@
   border-radius: 0.625rem;
 }
 
-.info {
+.home .info {
   max-width: 40rem;
   color: #222;
   font-size: 1.25rem;
 }
 
-.info p {
+.home .info p {
   margin-bottom: 0.9375rem;
 }
 
-.bottom-section {
+.home .bottom-section {
   max-width: 40rem;
   color: #222;
   font-size: 1.25rem;
