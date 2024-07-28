@@ -1,19 +1,20 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import "./Projects.css";
 import { projects } from '../data/projectsData';
 
 const Projects = () => {
     return (
-        <div className="project-list">
+        <div className="projects">
             {projects.map(project => (
-                <div key={project.id} className="project-summary">
+                <div key={project.id}>
                     <br />
-                    <img src={project.image} alt={project.title} style={{ width: '20%', height: 'auto' }} />
+                    <img src={project.image} alt={project.title} />
                     <h2><u><Link to={`/projects/${project.id}`}>{project.title}</Link></u></h2>
-                    <p>{project.developmentTools}</p>
-                    <br />
+                    <p><i>{project.developmentTools}</i></p>
                     <p>{project.shortDescription}</p>
-                    <p><small>{project.dates}</small></p>
+                    <br />
+                    <p><i>{project.dates}</i></p>
                     <hr />
                 </div>
             ))}
