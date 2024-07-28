@@ -1,39 +1,31 @@
-.courses {
-  width: 70%;
-  margin: 0 auto;
-}
-table {
+.courses table {
   margin-left: auto;
   margin-right: auto;
   width: 70%;
   border-collapse: collapse;
   box-shadow: 0 4px 8px rgba(0,0,0,0.05);
 }
-th, td {
+.courses th, td {
   border: 1px solid #e1e1e1;
   padding: 10px 20px;
   text-align: left;
 }
-th {
+.courses th {
   background-color: #f5f5f5;
 }
-tr.row-gray-light {
+.courses tr.row-gray-light {
   background-color: #fafafa;
 }
-tr.row-gray-dark {
+.courses tr.row-gray-dark {
   background-color: #f0f0f0;
 }
-.grade-name, .ects {
+.courses .grade-name, .ects {
   text-align: left;
 }
-.grade-value {
+.courses .grade-value {
   text-align: center;
 }
-h2 {
-  text-align: center;
-  margin-top: 20px;
-}
-.note {
+.courses .note {
   font-size: 0.9em;
   color: #555;
   margin: 0 15%;

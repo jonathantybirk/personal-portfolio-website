@@ -4,7 +4,7 @@ import "./Header.css";
 
 const Header: React.FC = () => {
   return (
-    <header>
+    <header className="header">
       <nav>
         <ul>
           <li><Link to="/home">Home</Link></li>

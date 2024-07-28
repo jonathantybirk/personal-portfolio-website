@@ -8,7 +8,7 @@ const Courses = () => {
   }, []);
 
   return (
-    <div className="courses-container">
+    <div className="courses">
       {semesters.map((semester, index) => (
         <div key={index}>
           <br />
