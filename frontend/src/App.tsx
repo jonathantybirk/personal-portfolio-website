@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-d
 import Header from './components/Header';
 import Home from './components/Home';
 import Courses from './components/Courses';
-import ProjectRoutes from './components/ProjectRoutes';
+import Projects, { ProjectRoutes } from './components/Projects';
 import './App.css';
 
 const App: React.FC = () => {
