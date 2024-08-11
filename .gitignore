@@ -99,3 +99,4 @@ backend/out/
 # Ignore .env.production in case you use it for production deployment
 frontend/.env.production
 backend/.env.production
+node_modules
