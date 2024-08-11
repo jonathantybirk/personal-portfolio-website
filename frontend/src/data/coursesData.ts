@@ -102,7 +102,7 @@ const semesters = [
             code: "01037",
             ects: 5,
             name: "Advanced Engineering Mathematics 2",
-            link: "https://kurser.dtu.dk/course/01037",
+            link: "https://kurser.dtu.dk/course/2024-2025/01037",
             assessments: [
               { name: "", grade: "" }
             ],
@@ -112,7 +112,7 @@ const semesters = [
             code: "02110",
             ects: 5,
             name: "Algorithms and Data Structures 2",
-            link: "https://kurser.dtu.dk/course/02110",
+            link: "https://kurser.dtu.dk/course/2024-2025/02110",
             assessments: [
               { name: "", grade: "" }
             ],
@@ -122,7 +122,7 @@ const semesters = [
             code: "02405",
             ects: 5,
             name: "Probability Theory",
-            link: "https://kurser.dtu.dk/course/02405",
+            link: "https://kurser.dtu.dk/course/2024-2025/02405",
             assessments: [
               { name: "", grade: "" }
             ],
@@ -132,7 +132,7 @@ const semesters = [
             code: "02462",
             ects: 5,
             name: "Signals and Data",
-            link: "https://kurser.dtu.dk/course/02462",
+            link: "https://kurser.dtu.dk/course/2024-2025/02462",
             assessments: [
               { name: "", grade: "" }
             ],
@@ -142,7 +142,7 @@ const semesters = [
             code: "02464",
             ects: 5,
             name: "Artificial Intelligence and Human Cognition",
-            link: "https://kurser.dtu.dk/course/02464",
+            link: "https://kurser.dtu.dk/course/2024-2025/02464",
             assessments: [
               { name: "", grade: "" }
             ],
@@ -152,7 +152,7 @@ const semesters = [
             code: "02476",
             ects: 5,
             name: "Machine Learning Operations",
-            link: "https://kurser.dtu.dk/course/02476",
+            link: "https://kurser.dtu.dk/course/2024-2025/02476",
             assessments: [
               { name: "", grade: "" }
             ],
@@ -165,10 +165,20 @@ const semesters = [
         period: "January 2025 - June 2025",
         courses: [
           {
+            code: "01020",
+            ects: 5,
+            name: "Advanced Linear Algebra",
+            link: "https://kurser.dtu.dk/course/2024-2025/01020",
+            assessments: [
+              { name: "", grade: "" }
+            ],
+            average: ""
+          },
+          {
             code: "02182",
             ects: 5,
             name: "Symbolic Artificial Intelligence",
-            link: "https://kurser.dtu.dk/course/02182",
+            link: "https://kurser.dtu.dk/course/2024-2025/02182",
             assessments: [
               { name: "", grade: "" }
             ],
@@ -178,7 +188,7 @@ const semesters = [
             code: "02463",
             ects: 5,
             name: "Active Machine Learning and Agency",
-            link: "https://kurser.dtu.dk/course/02463",
+            link: "https://kurser.dtu.dk/course/2024-2025/02463",
             assessments: [
               { name: "", grade: "" }
             ],
@@ -188,7 +198,7 @@ const semesters = [
             code: "02465",
             ects: 5,
             name: "Introduction to Reinforcement Learning and Control",
-            link: "https://kurser.dtu.dk/course/02465",
+            link: "https://kurser.dtu.dk/course/2024-2025/02465",
             assessments: [
               { name: "", grade: "" }
             ],
@@ -198,7 +208,7 @@ const semesters = [
             code: "02466",
             ects: 10,
             name: "Project Work - Bachelor of Artificial Intelligence and Data",
-            link: "https://kurser.dtu.dk/course/02466",
+            link: "https://kurser.dtu.dk/course/2024-2025/02466",
             assessments: [
               { name: "", grade: "" }
             ],
@@ -257,18 +267,8 @@ const semesters = [
         period: "January 2026 - June 2026",
         courses: [
           {
-            code: "",
-            ects: 15,
-            name: "Bachelor Project",
-            link: "",
-            assessments: [
-              { name: "", grade: "" }
-            ],
-            average: ""
-          },
-          {
             code: "10060",
-            ects: 10,
+            ects: `${10} (split)`,
             name: "Physics",
             link: "https://kurser.dtu.dk/course/10060",
             assessments: [
@@ -295,12 +295,22 @@ const semesters = [
               { name: "", grade: "" }
             ],
             average: ""
-          }
+          },
+          {
+            code: "",
+            ects: 15,
+            name: "Bachelor Project",
+            link: "",
+            assessments: [
+              { name: "", grade: "" }
+            ],
+            average: ""
+          },
         ]
       },
       {
-        title: "Seventh & Eighth Semester Courses (expected)",
-        period: "August 2026 - June 2027",
+        title: "Seventh Semester Courses (expected)",
+        period: "August 2026 - January 2027",
         courses: [
           {
             code: "02266",
@@ -314,7 +324,7 @@ const semesters = [
           },
           {
             code: "10060",
-            ects: 10,
+            ects: `${10} (split)`,
             name: "Physics",
             link: "https://kurser.dtu.dk/course/10060",
             assessments: [
@@ -324,18 +334,8 @@ const semesters = [
           },
           {
             code: "",
-            ects: 5,
-            name: "Project Course",
-            link: "",
-            assessments: [
-              { name: "", grade: "" }
-            ],
-            average: ""
-          },
-          {
-            code: "",
-            ects: 30,
-            name: "Various MSc courses for transitional semesters",
+            ects: 15,
+            name: "Various MSc courses for transitional semester",
             link: "",
             assessments: [
               { name: "", grade: "" }
