@@ -1,11 +1,15 @@
-import express from 'express';
-import { getCourses } from '../controllers/coursesController';
-import { getProjects } from '../controllers/projectsController';
+import { Router } from 'express';
+import { insertCourses } from '../controllers/coursesController';
+import { insertProjects } from '../controllers/projectsController';
 
-const router = express.Router();
+const router = Router();
 
-// Define routes
-router.get('/courses', getCourses);
-router.get('/projects', getProjects);
+// Modify these routes to accept GET requests for testing purposes
+router.get('/insert-courses', insertCourses);
+router.get('/insert-projects', insertProjects);
+
+// Keep the POST routes for actual use
+router.post('/insert-courses', insertCourses);
+router.post('/insert-projects', insertProjects);
 
 export default router;
