@@ -22,3 +22,7 @@ export const insertProjects = async (req: Request, res: Response) => {
 
     res.send('Projects inserted successfully');
 };
+
+export const getProjects = (req: Request, res: Response) => {
+    res.json(projects);
+};

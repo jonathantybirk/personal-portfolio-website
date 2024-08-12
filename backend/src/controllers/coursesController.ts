@@ -36,3 +36,7 @@ export const insertCourses = async (req: Request, res: Response) => {
 
   res.send('Courses inserted successfully');
 };
+
+export const getCourses = (req: Request, res: Response) => {
+  res.json(semesters);
+};
