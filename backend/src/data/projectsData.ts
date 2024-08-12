@@ -1,13 +1,13 @@
-const temporaryImage = '../assets/temporary.png';
-const bouncyBallsImage = '../assets/bouncy-balls.png';
-const orbiterImage = '../assets/orbiter.png';
-const redWineClassifierImage = '../assets/red-wine-classifier.png';
-const legacyStaticPortfolioWebsiteImage = '../assets/legacy-static-portfolio-website.png';
-const wordpressBlogImage = '../assets/wordpress-blog.png';
-const multiAgentPongImage = '../assets/multi-agent-pong-project.png';
-const bostonHousingModelImage = '../assets/boston-housing-model.png';
-const llmBiasAnalysisImage = '../assets/llm-bias-analysis.png';
-const portfolioWebsiteImage = '../assets/portfolio-website.png';
+const temporaryImage = '/assets/temporary.png';
+const bouncyBallsImage = '/assets/bouncy-balls.png';
+const orbiterImage = '/assets/orbiter.png';
+const redWineClassifierImage = '/assets/red-wine-classifier.png';
+const legacyStaticPortfolioWebsiteImage = '/assets/legacy-static-portfolio-website.png';
+const wordpressBlogImage = '/assets/wordpress-blog.png';
+const multiAgentPongImage = '/assets/multi-agent-pong-project.png';
+const bostonHousingModelImage = '/assets/boston-housing-model.png';
+const llmBiasAnalysisImage = '/assets/llm-bias-analysis.png';
+const portfolioWebsiteImage = '/assets/portfolio-website.png';
 
 export const projects = [
     {
