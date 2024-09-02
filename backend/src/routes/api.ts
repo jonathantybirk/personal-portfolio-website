@@ -1,14 +1,13 @@
 import { Router } from 'express';
-import { insertCourses } from '../controllers/coursesController';
-import { insertProjects } from '../controllers/projectsController';
+import { getCourses, insertCourses } from '../controllers/coursesController';
+import { getProjects, insertProjects } from '../controllers/projectsController';
 
 const router = Router();
 
-// Modify these routes to accept GET requests for testing purposes
-router.get('/insert-courses', insertCourses);
-router.get('/insert-projects', insertProjects);
+router.get('/get-courses', getCourses);
+router.get('/get-projects', getProjects);
 
-// Keep the POST routes for actual use
+// Optional: Retain the POST routes if you still need them for inserting data
 router.post('/insert-courses', insertCourses);
 router.post('/insert-projects', insertProjects);
 
