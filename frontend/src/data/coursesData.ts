@@ -1,7 +1,7 @@
 const semesters = [
     {
       title: "First Semester Courses and Grades",
-      period: "August 2023 - January 2024",
+      period: "September 2023 - January 2024",
       courses: [
         {
           code: "01001",
@@ -45,11 +45,11 @@ const semesters = [
           note: "Employed as Teaching Assistant for 02461 Introduction to Intelligent Systems in Autumn 2025 and January 2026."
         }
       ],
-      gradeLink: "https://campusnet.dtu.dk/cnnet/Grades/Public.aspx?Id=ZTDNHK7TTA"
+      gradeLink: "https://campusnet.dtu.dk/cnnet/Grades/Public.aspx?Id=EM852B4WCN"
     },
     {
         title: "Second Semester Courses and Grades",
-        period: "January 2024 - June 2024",
+        period: "February 2024 - August 2024",
         courses: [
           {
             code: "01002",
@@ -88,26 +88,26 @@ const semesters = [
             name: "Project in Statistical Evaluation for Artificial Intelligence and Data",
             link: "https://kurser.dtu.dk/course/2023-2024/02445",
             assessments: [
-              { name: "Individual assignment and group assignment", grade: "TBD" }
+              { name: "Individual assignment and group assignment", grade: "12 (A)" }
             ],
-            average: "TBD"
-          }
-        ],
-      },
-      {
-        title: "Third Semester Courses (expected)",
-        period: "August 2024 - January 2025",
-        courses: [
+            average: "9.3"
+          },
           {
             code: "01037",
             ects: 5,
             name: "Advanced Engineering Mathematics 2",
             link: "https://kurser.dtu.dk/course/2024-2025/01037",
             assessments: [
-              { name: "", grade: "" }
+              { name: "Assignments and exam", grade: "TBD" }
             ],
-            average: ""
+            average: "TBD"
           },
+        ],
+      },
+      {
+        title: "Third Semester Courses (expected)",
+        period: "September 2024 - January 2025",
+        courses: [
           {
             code: "02110",
             ects: 5,
@@ -162,7 +162,7 @@ const semesters = [
       },
       {
         title: "Fourth Semester Courses (expected)",
-        period: "January 2025 - June 2025",
+        period: "February 2025 - August 2025",
         courses: [
           {
             code: "01020",
@@ -218,7 +218,7 @@ const semesters = [
       },
       {
         title: "Fifth Semester Courses (expected)",
-        period: "August 2025 - January 2026",
+        period: "September 2025 - January 2026",
         courses: [
           {
             code: "ECE 4230",
@@ -264,7 +264,7 @@ const semesters = [
       },
       {
         title: "Sixth Semester Courses (expected)",
-        period: "January 2026 - June 2026",
+        period: "February 2026 - August 2026",
         courses: [
           {
             code: "10060",
@@ -310,7 +310,7 @@ const semesters = [
       },
       {
         title: "Seventh Semester Courses (expected)",
-        period: "August 2026 - January 2027",
+        period: "September 2026 - January 2027",
         courses: [
           {
             code: "02266",
