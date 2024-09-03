@@ -4,7 +4,6 @@ import "./Projects.css";
 import { projects } from '../data/projectsData';
 import Project from './ProjectPage';
 
-
 const Projects = () => {
     return (
         <div className="projects">
@@ -26,9 +25,9 @@ const Projects = () => {
 
 export const ProjectRoutes = () => (
     <Routes>
-        <Route path=":projectId" element={<Project />} />
-        <Route path=":projectId/*" element={<Navigate to="" replace />} />
-        <Route path="*" element={<Projects />} />
+        <Route path="/:projectId" element={<Project />} />
+        <Route path="/:projectId/*" element={<Navigate to="" replace />} />
+        <Route path="/*" element={<Projects />} />
     </Routes>
 );
 
