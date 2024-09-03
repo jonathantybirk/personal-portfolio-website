@@ -7,6 +7,8 @@
     "client": "cd frontend && npm start"
   },
   "dependencies": {
+    "@react-pdf-viewer/core": "^3.12.0",
+    "@react-pdf-viewer/default-layout": "^3.12.0",
     "concurrently": "^6.5.1"
   }
 }
