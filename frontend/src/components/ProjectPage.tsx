@@ -1,15 +1,23 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import { useParams, Navigate } from 'react-router-dom';
 import "./ProjectPage.css";
 import { projects } from '../data/projectsData';
 
 const Project = () => {
+    useEffect(() => {
+        document.title = "Projects | Portfolio";
+      }, []);
+
     const { projectId } = useParams();
     const project = projects.find(p => p.id === projectId);
 
     if (!project) {
         return <Navigate to="/projects" replace />;
     }
+
+    // useEffect(() => {
+    //     document.title = `${project.title} | Portfolio`;
+    //   }, []);
 
     return (
         <div className="project-page">

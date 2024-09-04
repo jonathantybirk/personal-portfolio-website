@@ -25,7 +25,7 @@ const Home: React.FC = () => {
             projects up as I do them. :)
           </p>
           <p>
-            You can check out <b><a href="/resume.pdf" target="_blank" rel="noopener noreferrer">my resume</a>↗</b>.
+            You can check out <b><a href="/resume" target="_blank" rel="noopener noreferrer">my resume</a>↗</b>.
           </p>
         </div>
       </div>
