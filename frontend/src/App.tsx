@@ -5,7 +5,7 @@ import Home from './components/Home';
 import Courses from './components/Courses';
 import Projects, { ProjectRoutes } from './components/Projects';
 import Interests from './components/extras/Interests';
-import Resume from './components/extras/Resume';
+import Resume from './components/extras/resume/Resume';
 import './App.css';
 
 
