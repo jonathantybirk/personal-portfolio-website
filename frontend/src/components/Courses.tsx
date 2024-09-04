@@ -2,7 +2,7 @@ import React, {useEffect} from 'react';
 import './Courses.css';
 import semesters from '../data/coursesData';
 
-const Courses = () => {
+const Courses: React.FC = () => {
   useEffect(() => {
     document.title = "Courses | Portfolio";
   }, []);
