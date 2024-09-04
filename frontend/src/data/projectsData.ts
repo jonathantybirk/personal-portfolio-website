@@ -134,7 +134,7 @@ export const projects = [
             <br /> <br />
             <a href="https://github.com/jonathantybirk/DTU-application-projects" target="_blank" rel="noopener noreferrer">See the source code on GitHub</a>↗
             <br /> <br />
-            <a href="https://portfolio.jonathantybirk.com/projects/orbiter/demo/" target="_blank" rel="noopener noreferrer">Try out the demo</a>↗
+            <a href="/projects/orbiter/demo" target="_blank" rel="noopener noreferrer">Try out the demo</a>↗
             `
     },
     {
