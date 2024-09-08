@@ -22,5 +22,5 @@
   },
   "include": [
     "src"
-  ]
+, "public/website-components/orbiter-demo/main.js", "public/website-components/orbiter-demo/bodies.js", "public/website-components/orbiter-demo/rocket.js", "public/website-components/orbiter-demo/setup.js", "public/website-components/orbiter-demo/ui.js"  ]
 }

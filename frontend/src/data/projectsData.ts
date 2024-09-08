@@ -16,7 +16,7 @@ export const projects = [
         title: 'Unity Game (in progress)',
         developmentTools: "C#, Design Patterns",
         shortDescription: '2D isometric turn-based tactical RPG',
-        dates: 'July & August 2024',
+        dates: 'From July 2024',
         projectDescription: `
             Working with a friend through the Summer to get closer to the C family of languages and improve my object-oriented programming.
             `
@@ -24,12 +24,13 @@ export const projects = [
     {
         id: 'portfolio-website',
         image: temporaryImage,
-        title: 'Dynamic Portfolio Website (in progress)',
+        title: 'Dynamic Portfolio Website',
         developmentTools: "React, TypeScript, Express, SQL",
         shortDescription: 'Portfolio website with a backend and database',
-        dates: 'July 2024',
+        dates: 'July and August 2024',
         projectDescription: `
-            This website is a full-stack project.
+            Website to showcase my portfolio with a React and TypeScript frontend, and an Express and SQL backend.
+            Deployed with GitHub Pages and Supabase.
             `
     },
     {
