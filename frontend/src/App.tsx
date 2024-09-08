@@ -21,6 +21,7 @@ const App: React.FC = () => {
           <Route path="/projects/orbiter/demo" element={<OrbiterDemo />} />
           <Route path="/projects/*" element={<><Header /><ProjectRoutes /></>} />
           <Route path="/courses" element={<><Header /><Courses /></>} />
+          <Route path="/courses/*" element={<Navigate to="/courses" replace />} />
           <Route path="/interests" element={<Interests />} />
           <Route path="/resume" element={<Resume />} />          
           <Route path="*" element={<Navigate to="/home" replace />} />
