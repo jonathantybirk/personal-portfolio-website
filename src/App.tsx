@@ -13,7 +13,7 @@ import './App.css';
 const App: React.FC = () => {
   
   return (
-    <Router>
+    <Router basename="/portfolio">
       <div className="App">
         <Routes>
           <Route path="/" element={<Navigate to="/home" replace />} />
