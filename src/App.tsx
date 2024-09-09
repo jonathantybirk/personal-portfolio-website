@@ -9,11 +9,10 @@ import Resume from './components/extras/Resume';
 import OrbiterDemo from './components/extras/OrbiterDemo';
 import './App.css';
 
-
 const App: React.FC = () => {
   
   return (
-    <Router basename="/portfolio">
+    <Router>
       <div className="App">
         <Routes>
           <Route path="/" element={<Navigate to="/home" replace />} />
