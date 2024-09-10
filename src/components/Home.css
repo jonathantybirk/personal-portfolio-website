@@ -30,13 +30,17 @@
   font-size: 1.25rem;
 }
 
-.home .info p {
-  margin-bottom: 0.9375rem;
-}
+@media (max-width: 768px) {
+  .home .top-section {
+    flex-direction: column;
+    gap: 1rem;
+  }
 
-.home .bottom-section {
-  max-width: 40rem;
-  color: #222;
-  font-size: 1.25rem;
-  text-align: left;
+  .home img {
+    max-width: 10rem;
+  }
+
+  .home .info {
+    font-size: 1rem;
+  }
 }
