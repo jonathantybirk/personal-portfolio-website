@@ -21,6 +21,7 @@
     "jsx": "preserve"
   },
   "include": [
-    "src", "public/website-components"  
+    "src",
+    "public/website-components"
   ]
 }
