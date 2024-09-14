@@ -1,6 +1,6 @@
-import { supabase } from '../supabaseClient';
-import { semesters } from '../../data/coursesData';
-import { projects } from '../../data/projectsData';
+import supabase from '../supabaseClient.js';
+import semesters from '../data/coursesData.js';
+import projects from '../data/projectsData.js';
 
 const insertData = async () => {
   try {
@@ -17,7 +17,7 @@ const insertData = async () => {
             assessments: course.assessments,
             average: course.average,
             link: course.link,
-            note: (course as any).note ?? null
+            note: course.note ?? null
           });
 
         if (courseError) {
