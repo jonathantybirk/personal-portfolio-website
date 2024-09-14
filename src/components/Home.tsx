@@ -14,8 +14,8 @@ const Home: React.FC = () => {
           <img src={profilePhoto} alt="Photo of me" className="img" />
           <div className="info">
             <p><b>Email:</b> <br /> jonathantybirk@gmail.com</p>
-            <p><b>LinkedIn:</b> <br /> <a href="https://www.linkedin.com/in/jonathantybirk/" target="_blank" rel="noopener noreferrer">linkedin.com/in/jonathantybirk/</a></p>
-            <p><b>GitHub:</b> <br /> <a href="https://github.com/jonathantybirk/" target="_blank" rel="noopener noreferrer">github.com/jonathantybirk/</a></p>
+            <br /><p><b>LinkedIn:</b> <br /> <a href="https://www.linkedin.com/in/jonathantybirk/" target="_blank" rel="noopener noreferrer">linkedin.com/in/jonathantybirk/</a></p>
+            <br /><p><b>GitHub:</b> <br /> <a href="https://github.com/jonathantybirk/" target="_blank" rel="noopener noreferrer">github.com/jonathantybirk/</a></p>
           </div>
         </div>
         <div className="bottom-section">

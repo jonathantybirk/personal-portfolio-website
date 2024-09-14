@@ -1,6 +1,6 @@
 import React, {useEffect} from 'react';
 import './Courses.css';
-import semesters from '../data/coursesData';
+import {semesters} from '../data/coursesData';
 
 const Courses: React.FC = () => {
   useEffect(() => {
