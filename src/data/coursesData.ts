@@ -1,4 +1,4 @@
-const semesters = [
+export const semesters = [
     {
       title: "First Semester Courses and Grades",
       period: "September 2023 - January 2024",
@@ -345,6 +345,4 @@ const semesters = [
         ]
       }
   ];
-  
-  export default semesters;
   
