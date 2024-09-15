@@ -1,7 +1,7 @@
 import React, {useEffect} from 'react';
 import { Route, Routes, Link, Navigate } from 'react-router-dom';
 import "./Projects.css";
-import { projects } from '../data/projectsData';
+import projects from '../database-services/data/projectsData';
 import Project from './ProjectPage';
 
 const Projects: React.FC = () => {
