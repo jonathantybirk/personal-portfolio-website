@@ -16,7 +16,7 @@ const projects = [
         title: 'Dynamic Portfolio Website',
         developmentTools: "React, TypeScript, Express, SQL",
         shortDescription: 'Portfolio website with a backend and database',
-        dates: 'July and August 2024',
+        dates: 'July & August 2024',
         projectDescription: `
             Website to showcase my portfolio with a React and TypeScript frontend, and an Express and SQL backend.
             Deployed with GitHub Pages and Supabase.
