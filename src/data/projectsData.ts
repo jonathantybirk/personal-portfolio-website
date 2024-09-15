@@ -1,18 +1,7 @@
-import temporaryImage from '../assets/temporary.png';
-import bouncyBallsImage from '../assets/bouncy-balls.png';
-import orbiterImage from '../assets/orbiter.png';
-import redWineClassifierImage from '../assets/red-wine-classifier.png';
-import legacyStaticPortfolioWebsiteImage from '../assets/legacy-static-portfolio-website.png';
-import wordpressBlogImage from '../assets/wordpress-blog.png';
-import multiAgentPongImage from '../assets/multi-agent-pong-project.png';
-import bostonHousingModelImage from '../assets/boston-housing-model.png';
-import llmBiasAnalysisImage from '../assets/llm-bias-analysis.png';
-import portfolioWebsiteImage from '../assets/portfolio-website.png';
-
 export const projects = [
     {
         id: 'unity-game',
-        image: temporaryImage,
+        image_path: '/assets/temporary.png',
         title: 'Unity Game (in progress)',
         developmentTools: "C#, Design Patterns",
         shortDescription: '2D isometric turn-based tactical RPG',
@@ -23,7 +12,7 @@ export const projects = [
     },
     {
         id: 'portfolio-website',
-        image: temporaryImage,
+        image_path: '/assets/temporary.png',
         title: 'Dynamic Portfolio Website',
         developmentTools: "React, TypeScript, Express, SQL",
         shortDescription: 'Portfolio website with a backend and database',
@@ -35,7 +24,7 @@ export const projects = [
     },
     {
         id: 'llm-bias-analysis',
-        image: llmBiasAnalysisImage,
+        image_path: '/assets/llm-bias-analysis.png',
         title: 'Examination of bias in Large Language Models',
         developmentTools: "LangChain, SciPy, Matplotlib",
         shortDescription: 'ChatGPT weighs in on r/AmItheAsshole',
@@ -49,7 +38,7 @@ export const projects = [
     },
     {
         id: 'boston-housing-analysis',
-        image: bostonHousingModelImage,
+        image_path: '/assets/boston-housing-model.png',
         title: 'Boston Housing Analysis',
         developmentTools: "NumPy, pandas, scikit-learn, SciPy",
         shortDescription: 'Principal Component Analysis and Model Validation',
@@ -65,7 +54,7 @@ export const projects = [
     },
     {
         id: 'multi-agent-pong-project',
-        image: multiAgentPongImage,
+        image_path: '/assets/multi-agent-pong-project.png',
         title: 'Multi-Agent Pong Project',
         developmentTools: "NumPy, PyTorch, Pygame",
         shortDescription: 'Report on multi-agent cooperation and deep Q-learning',
@@ -79,7 +68,7 @@ export const projects = [
     },
     {
         id: 'wordpress-blog',
-        image: wordpressBlogImage,
+        image_path: '/assets/wordpress-blog.png',
         title: 'WordPress Blog',
         developmentTools: "WordPress, Google Cloud Platform",
         shortDescription: 'Self-hosted WordPress website',
@@ -93,7 +82,7 @@ export const projects = [
     },
     {
         id: 'legacy-static-portfolio-website',
-        image: legacyStaticPortfolioWebsiteImage,
+        image_path: '/assets/legacy-static-portfolio-website.png',
         title: 'Static Portfolio Website (Legacy)',
         developmentTools: "HTML, CSS",
         shortDescription: 'Static portfolio website hosted on GitHub Pages',
@@ -108,7 +97,7 @@ export const projects = [
     },
     {
         id: 'red-wine-classifer',
-        image: redWineClassifierImage,
+        image_path: '/assets/red-wine-classifier.png',
         title: 'Red Wine Classifier',
         developmentTools: "Python, pandas, scikit-learn",
         shortDescription: 'Decision Tree Classifer trained to determine wine quality',
@@ -123,7 +112,7 @@ export const projects = [
     },
     {
         id: 'orbiter',
-        image: orbiterImage,
+        image_path: '/assets/orbiter.png',
         title: 'Orbiter',
         developmentTools: "JavaScript",
         shortDescription: '2D solar system simulation with orbital mechanics',
@@ -140,7 +129,7 @@ export const projects = [
     },
     {
         id: 'bouncy-balls',
-        image: bouncyBallsImage,
+        image_path: '/assets/bouncy-balls.png',
         title: 'Bouncy Balls',
         developmentTools: "Python, Pygame",
         shortDescription: '2D simulation of elastic collisions',
