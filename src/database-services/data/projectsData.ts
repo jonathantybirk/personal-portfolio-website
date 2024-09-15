@@ -1,4 +1,4 @@
-export const projects = [
+const projects = [
     {
         id: 'unity-game',
         image_path: '/assets/temporary.png',
@@ -143,3 +143,5 @@ export const projects = [
             `
     },
 ];
+
+export default projects
