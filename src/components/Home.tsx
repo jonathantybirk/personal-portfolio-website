@@ -1,6 +1,5 @@
 import React, { useEffect } from "react";
 import "./Home.css";
-import profilePhoto from "../assets/profile-photo.jpg";
 
 const Home: React.FC = () => {
   useEffect(() => {
@@ -11,7 +10,7 @@ const Home: React.FC = () => {
     <div className="home">
       <div className="content">
         <div className="top-section">
-          <img src={profilePhoto} alt="Photo of me" className="img" />
+          <img src="/assets/profile-photo.jpg" alt="Photo of me" className="img" />
           <div className="info">
             <p><b>Email:</b> <br /> jonathantybirk@gmail.com</p>
             <br /><p><b>LinkedIn:</b> <br /> <a href="https://www.linkedin.com/in/jonathantybirk/" target="_blank" rel="noopener noreferrer">linkedin.com/in/jonathantybirk/</a></p>
