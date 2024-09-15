@@ -23,7 +23,7 @@ const Project = () => {
         <div className="project-page">
             <div key={project.id}>
                 <br />
-                <img src={project.image} alt={project.title} />
+                <img src={project.image_path} alt={project.title} />
                 <div className="content">
                     <h1>{project.title}</h1>
                     <div dangerouslySetInnerHTML={{ __html: project.projectDescription }}></div>
