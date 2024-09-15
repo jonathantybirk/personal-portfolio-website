@@ -1,11 +1,27 @@
 import supabase from '../supabaseClient.js';
-import semesters from '../../data/coursesData.js';
-import projects from '../../data/projectsData.js';
+import semesters from '../data/coursesData.js';
+import projects from '../data/projectsData.js';
 
 const insertData = async () => {
   try {
-    // Insert Courses Data
+    // Insert Semesters Data
     for (const semester of semesters) {
+      const { data: semesterData, error: semesterError } = await supabase
+        .from('semesters')
+        .insert({
+          title: semester.title,
+          period: semester.period
+        })
+        .select();
+
+      if (semesterError) {
+        console.error(`Error inserting semester ${semester.title}:`, semesterError);
+        continue;
+      }
+
+      const semesterId = semesterData[0].id;
+
+      // Insert Courses Data for the inserted semester
       for (const course of semester.courses) {
         const { data: courseData, error: courseError } = await supabase
           .from('courses')
@@ -17,7 +33,8 @@ const insertData = async () => {
             assessments: course.assessments,
             average: course.average,
             link: course.link,
-            note: course.note ?? null
+            note: course.note ?? null,
+            semesterId: semesterId
           });
 
         if (courseError) {
@@ -25,27 +42,6 @@ const insertData = async () => {
         } else {
           console.log(`Course ${course.name} inserted successfully:`, courseData);
         }
-      }
-    }
-
-    // Insert Projects Data
-    for (const project of projects) {
-      const { data: projectData, error: projectError } = await supabase
-        .from('projects')
-        .insert({
-          id: project.id,
-          image: project.image,
-          title: project.title,
-          developmentTools: project.developmentTools,
-          shortDescription: project.shortDescription,
-          dates: project.dates,
-          projectDescription: project.projectDescription,
-        });
-
-      if (projectError) {
-        console.error(`Error inserting project ${project.title}:`, projectError);
-      } else {
-        console.log(`Project ${project.title} inserted successfully:`, projectData);
       }
     }
 
