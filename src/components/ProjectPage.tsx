@@ -1,7 +1,7 @@
 import React, {useEffect} from 'react';
 import { useParams, Navigate } from 'react-router-dom';
 import "./ProjectPage.css";
-import projects from '../database-services/data/projectsData';
+import projects from './data/projectsData';
 
 const Project = () => {
     useEffect(() => {
