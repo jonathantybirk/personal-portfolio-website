@@ -1,6 +1,6 @@
 import supabase from '../supabaseClient.js';
 import semesters from '../data/coursesData.js';
-import projects from '../data/projectsData.js';
+import projects from '../../components/data/projectsData.js';
 
 const insertData = async () => {
   try {
