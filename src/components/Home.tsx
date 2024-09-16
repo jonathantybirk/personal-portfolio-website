@@ -23,9 +23,6 @@ const Home: React.FC = () => {
             at the Technical University of Denmark. This site is where I put
             projects up as I do them. :)
           </p>
-          <p>
-            You can check out <b><a href="/resume" target="_blank" rel="noopener noreferrer">my resume</a>↗</b>.
-          </p>
         </div>
       </div>
     </div>
