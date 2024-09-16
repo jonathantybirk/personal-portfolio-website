@@ -16,12 +16,12 @@ const projects = [
         id: 'portfolio-website',
         image_path: '/assets/temporary.png',
         title: 'Dynamic Portfolio Website',
-        developmentTools: "React, TypeScript, Express, SQL",
+        developmentTools: "React, TypeScript, Node.js, SQL",
         shortDescription: 'Portfolio website with a backend and database',
         dates: 'July & August 2024',
         projectDescription: `
-            Website to showcase my portfolio with a React and TypeScript frontend, and an Express and SQL backend.
-            Deployed with GitHub Pages and Supabase.
+            Website to showcase my portfolio with a React and TypeScript frontend and a PostgreSQL database.
+            <br /> Deployed with Vercel and Supabase.
             `
     },
     {
