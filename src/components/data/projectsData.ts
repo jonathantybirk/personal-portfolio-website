@@ -8,7 +8,8 @@ const projects = [
         dates: 'From July 2024',
         projectDescription: `
             Working with a friend through the Summer to get closer to the C family of languages and improve my object-oriented programming.
-            <br /> Extensive use of inheritance, interfaces, and balanced application (and sometimes avoidance) of the Singleton design pattern. 
+            <br /> <br />
+            Extensive use of inheritance and interfaces, and balanced application (and sometimes avoidance) of the Singleton design pattern. 
             `
     },
     {

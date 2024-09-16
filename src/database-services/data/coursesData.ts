@@ -100,7 +100,7 @@ const semesters = [
             assessments: [
               { name: "Assignments and exam", grade: "TBD" }
             ],
-            average: "TBD"
+            average: "4.7"
           },
         ],
       },
