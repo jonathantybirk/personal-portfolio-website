@@ -14,10 +14,10 @@ const projects = [
     },
     {
         id: 'portfolio-website',
-        image_path: '/assets/temporary.png',
+        image_path: '/assets/portfolio-website.png',
         title: 'Dynamic Portfolio Website',
         developmentTools: "React, TypeScript, Node.js, SQL",
-        shortDescription: 'Portfolio website with a backend and database',
+        shortDescription: 'Portfolio website with React frontend and PostgreSQL',
         dates: 'July & August 2024',
         projectDescription: `
             Website to showcase my portfolio with a React and TypeScript frontend and a PostgreSQL database.
