@@ -1,7 +1,7 @@
 const projects = [
     {
         id: 'unity-game',
-        image_path: '/assets/temporary.png',
+        image_path: '/assets/unity-game.png',
         title: 'Unity Game (in progress)',
         developmentTools: "C#, Design Patterns",
         shortDescription: '2D isometric turn-based tactical RPG',
