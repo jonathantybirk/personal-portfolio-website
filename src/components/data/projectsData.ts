@@ -22,6 +22,8 @@ const projects = [
         projectDescription: `
             Website to showcase my portfolio with a React and TypeScript frontend and a PostgreSQL database.
             <br /> Deployed with Vercel and Supabase.
+
+            <br /> You are here.
             `
     },
     {
