@@ -10,7 +10,7 @@ const Courses: React.FC = () => {
 
   useEffect(() => {
     document.title = "Courses | Portfolio";
-    
+  
     const fetchCoursesData = async () => {
       try {
         const { data: semesters, error: semestersError } = await supabase
@@ -20,6 +20,7 @@ const Courses: React.FC = () => {
             title,
             period,
             courses (
+              id,
               code,
               ects,
               name,
@@ -28,13 +29,20 @@ const Courses: React.FC = () => {
               link,
               note
             )
-          `);
-
+          `)
+          .order('id', { ascending: true }); // Order semesters by ID
+  
         if (semestersError) {
           console.error("Error fetching semesters:", semestersError);
         } else {
-          console.log("Fetched semesters and courses data:", semesters);
-          setCoursesData(semesters);
+          // Ensure courses are sorted within each semester
+          const sortedSemesters = semesters.map((semester) => ({
+            ...semester,
+            courses: semester.courses.sort((a: any, b: any) => a.id - b.id),
+          }));
+  
+          console.log("Fetched and sorted semesters and courses data:", sortedSemesters);
+          setCoursesData(sortedSemesters);
         }
       } catch (error) {
         console.error("Error fetching courses data:", error);
@@ -42,10 +50,10 @@ const Courses: React.FC = () => {
         setLoading(false);
       }
     };
-
+  
     fetchCoursesData();
   }, []);
-
+  
   if (loading) {
     return <div>Loading courses...</div>;
   }
