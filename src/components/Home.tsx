@@ -24,7 +24,7 @@ const Home: React.FC = () => {
           </p>
           <p>
           <br />
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.jonathantybirk.com/projects/orbiter/demo" target="_blank" rel="noopener noreferrer">&nbsp; 🚀 &nbsp;</a> ← &nbsp; click to launch
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="/projects/orbiter/demo" target="_blank" rel="noopener noreferrer">&nbsp; 🚀 &nbsp;</a> ← &nbsp; click to launch
           </p>
         </div>
       </div>
