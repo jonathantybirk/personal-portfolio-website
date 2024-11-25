@@ -19,9 +19,12 @@ const Home: React.FC = () => {
         </div>
         <div className="bottom-section">
           <p>
-            Hello! I am currently studying BSc Artificial Intelligence and Data
-            at the Technical University of Denmark. This site is where I put
-            projects up as I do them. :)
+            I am studying BSc Artificial Intelligence and Data
+            at the Technical University of Denmark. This site is where I showcase (and host) some of my personal projects.
+          </p>
+          <p>
+          <br />
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.jonathantybirk.com/projects/orbiter/demo" target="_blank" rel="noopener noreferrer">&nbsp; 🚀 &nbsp;</a> ← &nbsp; click to launch
           </p>
         </div>
       </div>
