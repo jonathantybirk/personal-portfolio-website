@@ -7,15 +7,27 @@ const Interests: React.FC = () => {
 
     return (
         <div style={{textAlign: 'left', paddingLeft: '5px'}}>
-            Math and computers: <br />
+            <h3>Favorite media</h3>
+            Lord of the Rings (2001-2003 movie trilogy) <br />
+            Blade Runner 2049 (2017 movie) <br />
+            Outer wilds (2019 video game) <br />
+            Everything Everywhere All at Once (2022 movie) <br />
+            <br />
+            <h3>Philosophers of interest</h3>
+            John Stuart Mill (b. 1806) <br />
+            Karl Popper (b. 1902) <br />
+            Albert Camus (b. 1913) <br />
+            <br />
+            <h3>YouTube channels I learn from</h3>
+            <b><i>Math and computers</i></b> <br />
             3Blue1Brown (@3blue1brown) <br />
             CodeParade (@CodeParade) <br />
             Primer (@PrimerBlobs) <br />
+            Reducible (@Reducible) <br />
             Robert Miles AI Safety (@RobertMilesAI) <br />
             Sebastian Lague (@SebastianLague) <br />
             <br />
-            Science: <br />
-            hankschannel (@hankschannel) <br />
+            <b><i>Science</i></b> <br />
             Isaac Arthur (@isaacarthurSFIA) <br />
             Kurzgesagt – In a Nutshell (@kurzgesagt) <br />
             Sabine Hossenfelder (@SabineHossenfelder) <br />
@@ -23,43 +35,44 @@ const Interests: React.FC = () => {
             Veritasium (@veritasium) <br />
             Vsauce (@Vsauce) <br />
             <br />
-            Tech: <br />
+            <b><i>Tech</i></b> <br />
             AI Explained (@aiexplained-official) <br />
             WVFRM Podcast (@Waveform) <br />
             <br />
-            Fitness, nutrition, looks: <br />
+            <b><i>Health</i></b> <br />
             Adam Ragusea (@aragusea) <br />
             Doctor Mike (@DoctorMike) <br />
+            HealthyGamerGG (@HealthyGamerGG) <br />
             Renaissance Periodization (@RenaissancePeriodization) <br />
-            QOVES Studio (@QOVESStudio) <br />
             <br />
-            Martial arts: <br />
+            <b><i>Martial arts</i></b> <br />
             hard2hurt (@hard2hurt) <br />
             Martial Arts Journey (@MartialArtsJourney) <br />
             Sensei Seth (@SenseiSeth) <br />
             <br />
-            Finance: <br />
+            <b><i>Finance and entrepreneurship</i></b> <br />
             Alex Hormozi (@AlexHormozi) <br />
+            Dropping In Podcast (@DroppingInPodcast) <br />
+            Modern MBA (@ModernMBA) <br />
             Money & Macro (@MoneyMacro) <br />
             Patrick Boyle (@PBoyle) <br />
             Y Combinator (@ycombinator) <br />
             <br />
-            Personal development: <br />
-            Dropping In Podcast (@DroppingInPodcast) <br />
-            HealthyGamerGG (@HealthyGamerGG) <br />
-            <br />
-            Geopolitics: <br />
-            Bridges Podcast (@BridgesStudio) <br />
-            LegalEagle (@LegalEagle) <br />
+            <b><i>Geopolitics</i></b> <br />
             Perun (@PerunAU) <br />
             PolyMatter (@PolyMatter) <br />
             Task & Purpose (@Taskandpurpose) <br />
             Wendover Productions (@Wendoverproductions) <br />
             <br />
-            Art and media: <br />
+            <b><i>Society</i></b> <br />
+            Bridges Podcast (@BridgesStudio) <br />
+            hankschannel (@hankschannel) <br />
+            LegalEagle (@LegalEagle) <br />
+            <br />
+            <b><i>Art and media</i></b> <br />
             Jacob Geller (@JacobGeller) <br />
-            Sardonicast (@Sardonicast) <br />
             Solar Sands (@SolarSands) <br />
+            <br />
         </div>
     );
 }
