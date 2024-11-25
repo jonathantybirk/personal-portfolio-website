@@ -23,7 +23,6 @@ const Interests: React.FC = () => {
             3Blue1Brown (@3blue1brown) <br />
             CodeParade (@CodeParade) <br />
             Primer (@PrimerBlobs) <br />
-            Reducible (@Reducible) <br />
             Robert Miles AI Safety (@RobertMilesAI) <br />
             Sebastian Lague (@SebastianLague) <br />
             <br />
