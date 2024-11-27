@@ -57,6 +57,18 @@ const projects = [
             `
     },
     {
+        id: 'self-operating-computer',
+        image_path: '/assets/self-operating-computer.png',
+        title: 'Self-Operating Computer',
+        developmentTools: "Python, LangChain",
+        shortDescription: 'We gave GPT-4V a mouse and keyboard',
+        dates: 'February - May 2024',
+        projectDescription: `
+            I helped build a program to automatically perceive a computer screen and navigate around using keyboard and mouse with LangChain agents based on GPT-4V.
+            <br /> This was done for the startup Symbolik.ai to make more generalizable RPA.
+            `
+    },
+    {
         id: 'multi-agent-pong-project',
         image_path: '/assets/multi-agent-pong-project.png',
         title: 'Multi-Agent Pong Project',
