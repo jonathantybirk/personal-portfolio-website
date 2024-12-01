@@ -43,7 +43,7 @@ const Courses: React.FC = () => {
             courses: semester.courses.sort((a: any, b: any) => a.id - b.id),
           }));
 
-          console.log("Fetched and sorted semesters and courses data:", sortedSemesters);
+          // console.log("Fetched and sorted semesters and courses data:", sortedSemesters);
           setCoursesData(sortedSemesters);
         }
       } catch (fetchError) {
