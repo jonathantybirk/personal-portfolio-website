@@ -7,10 +7,11 @@ const gradesLink: string = "https://campusnet.dtu.dk/cnnet/Grades/Public.aspx?Id
 const Courses: React.FC = () => {
   const [coursesData, setCoursesData] = useState<any[]>([]);
   const [loading, setLoading] = useState(true);
+  const [error, setError] = useState<string | null>(null); // State for error messages
 
   useEffect(() => {
     document.title = "Courses | Portfolio";
-  
+
     const fetchCoursesData = async () => {
       try {
         const { data: semesters, error: semestersError } = await supabase
@@ -31,31 +32,37 @@ const Courses: React.FC = () => {
             )
           `)
           .order('id', { ascending: true }); // Order semesters by ID
-  
+
         if (semestersError) {
           console.error("Error fetching semesters:", semestersError);
+          setError("Failed to load courses data. Please try again later.");
         } else {
           // Ensure courses are sorted within each semester
           const sortedSemesters = semesters.map((semester) => ({
             ...semester,
             courses: semester.courses.sort((a: any, b: any) => a.id - b.id),
           }));
-  
+
           console.log("Fetched and sorted semesters and courses data:", sortedSemesters);
           setCoursesData(sortedSemesters);
         }
-      } catch (error) {
-        console.error("Error fetching courses data:", error);
+      } catch (fetchError) {
+        console.error("Unexpected error fetching courses data:", fetchError);
+        setError("An unexpected error occurred while loading courses. Please try again later.");
       } finally {
         setLoading(false);
       }
     };
-  
+
     fetchCoursesData();
   }, []);
-  
+
   if (loading) {
     return <div>Loading courses...</div>;
+  }
+
+  if (error) {
+    return <div className="error-message">{error}</div>;
   }
 
   return (
