@@ -20,8 +20,8 @@ const Home: React.FC = () => {
         </div>
         <div className="bottom-section">
           <p>
-            I am studying BSc Artificial Intelligence and Data
-            at the Technical University of Denmark. This site is where I showcase (and host) some of my personal projects.
+            I am a BSc Artificial Intelligence and Data student at the Technical University of Denmark. 
+            This site is where I showcase (and host) some of my personal projects.
           </p>
           <p>
           <br />
