@@ -34,7 +34,7 @@ const Courses: React.FC = () => {
           .order('id', { ascending: true }); // Order semesters by ID
 
         if (semestersError) {
-          console.error("Error fetching semesters:", semestersError);
+          // console.error("Error fetching semesters:", semestersError);
           setError("Failed to load courses data :(");
         } else {
           // Ensure courses are sorted within each semester
@@ -47,7 +47,7 @@ const Courses: React.FC = () => {
           setCoursesData(sortedSemesters);
         }
       } catch (fetchError) {
-        console.error("Unexpected error fetching courses data:", fetchError);
+        // console.error("Unexpected error fetching courses data:", fetchError);
         setError("An unexpected error occurred while loading courses :(");
       } finally {
         setLoading(false);
