@@ -21,6 +21,7 @@ const Interests: React.FC = () => {
             <h3>YouTube channels I learn from</h3>
             <b><i>Math and computers</i></b> <br />
             3Blue1Brown (@3blue1brown) <br />
+            Ben Eater (@BenEater) <br />
             CodeParade (@CodeParade) <br />
             Primer (@PrimerBlobs) <br />
             Robert Miles AI Safety (@RobertMilesAI) <br />
