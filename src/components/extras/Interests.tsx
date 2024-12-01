@@ -36,6 +36,7 @@ const Interests: React.FC = () => {
             <br />
             <b><i>Tech</i></b> <br />
             AI Explained (@aiexplained-official) <br />
+            bycloud (@bycloudAI) <br />
             WVFRM Podcast (@Waveform) <br />
             <br />
             <b><i>Health</i></b> <br />
@@ -66,12 +67,15 @@ const Interests: React.FC = () => {
             <b><i>Society</i></b> <br />
             Bridges Podcast (@BridgesStudio) <br />
             hankschannel (@hankschannel) <br />
+            Knowing Better (@KnowingBetter) <br />
             LegalEagle (@LegalEagle) <br />
             <br />
             <b><i>Art and media</i></b> <br />
+            Adam Neely (@AdamNeely) <br />
             Jacob Geller (@JacobGeller) <br />
             Solar Sands (@SolarSands) <br />
             <br />
+
         </div>
     );
 }
