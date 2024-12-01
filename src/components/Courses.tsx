@@ -35,7 +35,7 @@ const Courses: React.FC = () => {
 
         if (semestersError) {
           console.error("Error fetching semesters:", semestersError);
-          setError("Failed to load courses data. Please try again later.");
+          setError("Failed to load courses data :(");
         } else {
           // Ensure courses are sorted within each semester
           const sortedSemesters = semesters.map((semester) => ({
@@ -48,7 +48,7 @@ const Courses: React.FC = () => {
         }
       } catch (fetchError) {
         console.error("Unexpected error fetching courses data:", fetchError);
-        setError("An unexpected error occurred while loading courses. Please try again later.");
+        setError("An unexpected error occurred while loading courses :(");
       } finally {
         setLoading(false);
       }
