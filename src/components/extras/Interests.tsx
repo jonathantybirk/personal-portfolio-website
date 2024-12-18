@@ -26,6 +26,7 @@ const Interests: React.FC = () => {
             Primer (@PrimerBlobs) <br />
             Robert Miles AI Safety (@RobertMilesAI) <br />
             Sebastian Lague (@SebastianLague) <br />
+            Stand-up Maths (@standupmaths) <br />
             <br />
             <b><i>Science</i></b> <br />
             Isaac Arthur (@isaacarthurSFIA) <br />
