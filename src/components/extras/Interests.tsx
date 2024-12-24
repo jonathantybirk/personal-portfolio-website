@@ -10,7 +10,7 @@ const Interests: React.FC = () => {
             <h3>Favorite media</h3>
             Lord of the Rings (2001-2003 movie trilogy) <br />
             Blade Runner 2049 (2017 movie) <br />
-            Outer wilds (2019 video game) <br />
+            Outer Wilds (2019 video game) <br />
             Everything Everywhere All at Once (2022 movie) <br />
             <br />
             <h3>Philosophers of interest</h3>
@@ -49,7 +49,7 @@ const Interests: React.FC = () => {
             <br />
             <b><i>Martial arts</i></b> <br />
             hard2hurt (@hard2hurt) <br />
-            Martial Arts Journey (@MartialArtsJourney) <br />
+            Martial Arts Journey with Rokas (@MartialArtsJourney) <br />
             Sensei Seth (@SenseiSeth) <br />
             <br />
             <b><i>Finance and entrepreneurship</i></b> <br />
@@ -70,10 +70,10 @@ const Interests: React.FC = () => {
             Bridges Podcast (@BridgesStudio) <br />
             hankschannel (@hankschannel) <br />
             Knowing Better (@KnowingBetter) <br />
-            LegalEagle (@LegalEagle) <br />
             <br />
             <b><i>Art and media</i></b> <br />
             Adam Neely (@AdamNeely) <br />
+            Big Joel (@BigJoel) <br / >
             Jacob Geller (@JacobGeller) <br />
             Solar Sands (@SolarSands) <br />
             <br />
