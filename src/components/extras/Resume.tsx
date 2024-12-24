@@ -5,22 +5,20 @@ const Resume: React.FC = () => {
     document.title = "Resume";
     document.body.style.overflowY = "hidden";
     return () => {
-      document.body.style.overflowY = "scroll";
+        document.body.style.overflowY = "scroll";
     };
-  }, []);
+}, []);
+    
+    return (
+        // <div>
+        //     Resume currently unavailable. Check out my LinkedIn at <b><a href="https://www.linkedin.com/in/jonathantybirk/" target="_blank" rel="noopener noreferrer">linkedin.com/in/jonathantybirk</a></b>↗.
+        // </div>
 
-  return (
-    <iframe
-      src={
-        "https://docs.google.com/gview?url=" +
-        "https://drive.google.com/uc?export=download&id=1HE3DZ11_sGU0pejU-ND6akeq_iT_RlyA" +
-        "&embedded=true"
-      }
-      style={{ width: "100%", height: "100vh", border: "none" }}
-      frameBorder="0"
-      title="resume"
-    />
-  );
-};
+        <iframe
+          src={"/website-components/website resume.pdf"}
+          style={{ position: "fixed", top: 0, left: 0, width: "100%", height: "100vh", border: "none", zIndex: 9999 }}
+        />
+    );
+}
 
 export default Resume;
