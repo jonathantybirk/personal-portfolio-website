@@ -73,6 +73,7 @@ const Interests: React.FC = () => {
             <br />
             <b><i>Art and media</i></b> <br />
             Adam Neely (@AdamNeely) <br />
+            Big Joel (@BigJoel) <br / >
             Jacob Geller (@JacobGeller) <br />
             Solar Sands (@SolarSands) <br />
             <br />
