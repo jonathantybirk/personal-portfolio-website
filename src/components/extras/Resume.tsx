@@ -1,5 +1,7 @@
 import React, { useEffect } from "react";
 
+const RESUME_PATH = "/website-components/website resume.pdf";
+
 const Resume: React.FC = () => {
   useEffect(() => {
     document.title = "Resume";
@@ -11,7 +13,7 @@ const Resume: React.FC = () => {
 
   return (
     <iframe
-      src={"/website-components/website resume.pdf"}
+      src={RESUME_PATH}
       style={{ position: "fixed", top: 0, left: 0, width: "100%", height: "100vh", border: "none", zIndex: 9999 }}
     />
   );

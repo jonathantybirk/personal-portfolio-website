@@ -1,3 +1,8 @@
+// This script is written in JavaScript because it was the only approach
+// that worked reliably for the Supabase insertion logic.
+// I wish I remember the exact issue but it is 6 months old now.
+// Sorry!
+
 import supabase from '../supabaseClient.js';
 import semesters from '../data/coursesData.js';
 
@@ -5,7 +10,7 @@ const insertData = async () => {
   try {
     // Insert Semesters Data
     for (const semester of semesters) {
-      const { data: semesterData, error: semesterError } = await supabase
+      const { data: insertedSemester, error: semesterError } = await supabase
         .from('semesters')
         .insert({
           title: semester.title,
@@ -18,11 +23,11 @@ const insertData = async () => {
         continue;
       }
 
-      const semesterId = semesterData[0].id;
+      const semesterId = insertedSemester[0].id;
 
       // Insert Courses Data for the inserted semester
       for (const course of semester.courses) {
-        const { data: courseData, error: courseError } = await supabase
+        const { data: insertedCourse, error: courseError } = await supabase
           .from('courses')
           .insert({
             code: course.code,
@@ -33,17 +38,16 @@ const insertData = async () => {
             average: course.average,
             link: course.link,
             note: course.note ?? null,
-            semesterId: semesterId
+            semesterId
           });
 
         if (courseError) {
           console.error(`Error inserting course ${course.name}:`, courseError);
         } else {
-          console.log(`Course ${course.name} inserted successfully:`, courseData);
+          console.log(`Course inserted:`, insertedCourse);
         }
       }
     }
-
   } catch (error) {
     console.error('Error running the insertion script:', error);
   }
