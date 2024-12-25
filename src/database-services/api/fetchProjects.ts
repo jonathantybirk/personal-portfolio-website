@@ -1,7 +1,7 @@
 import supabase from '../supabaseClient';
 
 export const fetchProjects = async () => {
-  const { data, error } = await supabase
+  const { data: projectsData, error } = await supabase
     .from('projects')
     .select('*');
 
@@ -10,5 +10,5 @@ export const fetchProjects = async () => {
     return [];
   }
 
-  return data;
+  return projectsData;
 };
