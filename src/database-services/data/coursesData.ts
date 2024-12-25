@@ -1,3 +1,6 @@
+// This was the original data inserted in the Supabase database.
+// Edits have been made since, so the data here is outdated.
+
 const semesters = [
     {
       title: "First Semester Courses and Grades",
