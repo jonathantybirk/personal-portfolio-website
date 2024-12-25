@@ -1,7 +1,6 @@
 // This script is written in JavaScript because it was the only approach
 // that worked reliably for the Supabase insertion logic.
-// I wish I remember the exact issue but it is 6 months old now.
-// Sorry!
+// I wish I remembered the exact issue but it is 6 months old now.
 
 import supabase from '../supabaseClient.js';
 import semesters from '../data/coursesData.js';
