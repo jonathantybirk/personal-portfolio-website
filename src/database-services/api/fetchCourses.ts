@@ -1,7 +1,7 @@
 import supabase from '../supabaseClient';
 
 export const fetchCourses = async () => {
-  const { data, error } = await supabase
+  const { data: coursesData, error } = await supabase
     .from('courses')
     .select('*');
 
@@ -10,5 +10,5 @@ export const fetchCourses = async () => {
     return [];
   }
 
-  return data;
+  return coursesData;
 };
