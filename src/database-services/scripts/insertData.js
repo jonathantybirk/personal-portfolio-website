@@ -2,14 +2,14 @@
 // that worked reliably for the Supabase insertion logic.
 // I wish I remembered the exact issue but it is 6 months old now.
 
-import supabase from '../supabaseClient.js';
+import supabaseClient from '../supabaseClient.js';
 import semesters from '../data/coursesData.js';
 
 const insertData = async () => {
   try {
     // Insert Semesters Data
     for (const semester of semesters) {
-      const { data: insertedSemester, error: semesterError } = await supabase
+      const { data: insertedSemester, error: semesterError } = await supabaseClient
         .from('semesters')
         .insert({
           title: semester.title,
@@ -26,7 +26,7 @@ const insertData = async () => {
 
       // Insert Courses Data for the inserted semester
       for (const course of semester.courses) {
-        const { data: insertedCourse, error: courseError } = await supabase
+        const { data: insertedCourse, error: courseError } = await supabaseClient
           .from('courses')
           .insert({
             code: course.code,
