@@ -1,30 +1,9 @@
 import React, { useEffect, useState } from 'react';
 import './Courses.css';
-import supabase from '../database-services/supabaseClient';
+import { fetchCoursesData } from '../database-services/api/fetchCoursesData';
+import { Semester, Course, Assessment } from '../types/courseTypes';
 
 const gradesLink: string = "https://campusnet.dtu.dk/cnnet/Grades/Public.aspx?Id=EM852B4WCN";
-
-interface Assessment {
-  name: string;
-  grade: string;
-}
-
-interface Course {
-  id: number;
-  code: string;
-  ects: number;
-  name: string;
-  assessments: Assessment[];
-  average: string;
-  link?: string;
-}
-
-interface Semester {
-  id: number;
-  title: string;
-  period: string;
-  courses: Course[];
-}
 
 const Courses: React.FC = () => {
   const [coursesData, setCoursesData] = useState<Semester[]>([]);
@@ -33,45 +12,17 @@ const Courses: React.FC = () => {
 
   useEffect(() => {
     document.title = "Courses | Portfolio";
-    fetchCoursesData();
-  }, []);
-
-  const fetchCoursesData = async (): Promise<void> => {
-    try {
-      const { data: semesters, error: semestersError } = await supabase
-        .from('semesters')
-        .select(`
-          id,
-          title,
-          period,
-          courses (
-            id,
-            code,
-            ects,
-            name,
-            assessments,
-            average,
-            link,
-            note
-          )
-        `)
-        .order('id', { ascending: true });
-
-      if (semestersError) {
+    (async () => {
+      try {
+        const data = await fetchCoursesData();
+        setCoursesData(data);
+      } catch (fetchError) {
         setError("Failed to load courses data :(");
-      } else {
-        const sortedSemesters = semesters.map((semester: Semester) => ({
-          ...semester,
-          courses: semester.courses.sort((a, b) => a.id - b.id),
-        }));
-        setCoursesData(sortedSemesters);
+      } finally {
+        setLoading(false);
       }
-    } catch (fetchError) {
-      setError("An unexpected error occurred while loading courses :(");
-    } finally {
-      setLoading(false);
-    }
-  };
+    })();
+  }, []);
 
   if (loading) {
     return <div>Loading courses...</div>;
@@ -123,7 +74,7 @@ const CourseTable: React.FC<{ courses: Course[] }> = ({ courses }) => (
 
 const CourseRow: React.FC<{ course: Course, courseIndex: number }> = ({ course, courseIndex }) => (
   <>
-    {course.assessments.map((assessment, assessmentIndex) => (
+    {course.assessments.map((assessment: Assessment, assessmentIndex: number) => (
       <tr key={assessmentIndex} className={courseIndex % 2 === 0 ? "row-gray-light" : "row-gray-dark"}>
         {assessmentIndex === 0 && (
           <>

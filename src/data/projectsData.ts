@@ -1,11 +1,13 @@
-const projects = [
+import { ProjectDetail } from '../types/projectTypes';
+
+const projects: ProjectDetail[] = [
     {
         id: 'unity-game',
-        image_path: '/assets/unity-game.png',
+        imagePath: '/assets/unity-game.png',
         title: 'Isometric Turn-Based Strategy Game (in progress)',
         developmentTools: "C#, Design Patterns",
         shortDescription: '2D isometric turn-based tactical RPG',
-        dates: 'From July 2024',
+        period: 'From July 2024',
         projectDescription: `
             Working with a friend through the Summer to get closer to the C family of languages and improve my object-oriented programming.
             <br /> <br />
@@ -14,11 +16,11 @@ const projects = [
     },
     {
         id: 'portfolio-website',
-        image_path: '/assets/portfolio-website.png',
+        imagePath: '/assets/portfolio-website.png',
         title: 'Dynamic Portfolio Website',
         developmentTools: "React, TypeScript, Node.js, SQL",
         shortDescription: 'Portfolio website with React frontend and PostgreSQL',
-        dates: 'July & August 2024',
+        period: 'July & August 2024',
         projectDescription: `
             Website to showcase my portfolio with a React and TypeScript frontend and a PostgreSQL database.
             <br /> Deployed with Vercel and Supabase.
@@ -28,11 +30,11 @@ const projects = [
     },
     {
         id: 'llm-bias-analysis',
-        image_path: '/assets/llm-bias-analysis.png',
+        imagePath: '/assets/llm-bias-analysis.png',
         title: 'Examination of bias in Large Language Models',
         developmentTools: "LangChain, SciPy, Matplotlib",
         shortDescription: 'ChatGPT weighs in on r/AmItheAsshole',
-        dates: 'June 2024',
+        period: 'June 2024',
         projectDescription: `
             We fed the GPT-4o API (n=99) posts from the r/AmItheAsshole with six combinations of prompts 
             to examine the effect of user sentiment and point of view on the model's moral evaluations.
@@ -42,11 +44,11 @@ const projects = [
     },
     {
         id: 'boston-housing-analysis',
-        image_path: '/assets/boston-housing-model.png',
+        imagePath: '/assets/boston-housing-model.png',
         title: 'Boston Housing Analysis',
         developmentTools: "NumPy, pandas, scikit-learn, SciPy",
         shortDescription: 'Principal Component Analysis and Model Validation',
-        dates: 'March & April 2024',
+        period: 'March & April 2024',
         projectDescription: `
             We extensively analyzed the Boston Housing dataset, including feature correlations and a principal component analysis. 
             In a following report, we evaluated models on regression and classification on the Boston Housing dataset with two-level 10-fold cross-validation with complexity-controlling parameters.
@@ -58,11 +60,11 @@ const projects = [
     },
     {
         id: 'self-operating-computer',
-        image_path: '/assets/self-operating-computer.png',
+        imagePath: '/assets/self-operating-computer.png',
         title: 'Self-Operating Computer',
         developmentTools: "Python, LangChain",
         shortDescription: 'We gave GPT-4V a mouse and keyboard',
-        dates: 'February - May 2024',
+        period: 'February - May 2024',
         projectDescription: `
             I helped build a program to automatically perceive a computer screen and navigate around using keyboard and mouse with LangChain agents based on GPT-4V.
             <br /> This was done for the startup Symbolik.ai to make more generalizable RPA.
@@ -70,11 +72,11 @@ const projects = [
     },
     {
         id: 'multi-agent-pong-project',
-        image_path: '/assets/multi-agent-pong-project.png',
+        imagePath: '/assets/multi-agent-pong-project.png',
         title: 'Multi-Agent Pong Project',
         developmentTools: "NumPy, PyTorch, Pygame",
         shortDescription: 'Report on multi-agent cooperation and deep Q-learning',
-        dates: 'January 2024',
+        period: 'January 2024',
         projectDescription: `
             We trained and tested four pairs of agents playing a cooperative implementation of Pong, the classic Atari game. 
             The agents valued game states using Deep Q-networks trained with reinforcement learning.
@@ -84,11 +86,11 @@ const projects = [
     },
     {
         id: 'wordpress-blog',
-        image_path: '/assets/wordpress-blog.png',
+        imagePath: '/assets/wordpress-blog.png',
         title: 'WordPress Blog',
         developmentTools: "WordPress, Google Cloud Platform",
         shortDescription: 'Self-hosted WordPress website',
-        dates: 'August 2023',
+        period: 'August 2023',
         projectDescription: `
             During the summer, I decided to move my personal blog from wordpress.com to a self-hosted site. 
             I hosted the site on an Ubuntu server using Google Cloud Services, gaining some experience in managing a full stack environment. The site is currently offline due to costs.
@@ -98,11 +100,11 @@ const projects = [
     },
     {
         id: 'legacy-static-portfolio-website',
-        image_path: '/assets/legacy-static-portfolio-website.png',
+        imagePath: '/assets/legacy-static-portfolio-website.png',
         title: 'Static Portfolio Website (Legacy)',
         developmentTools: "HTML, CSS",
         shortDescription: 'Static portfolio website hosted on GitHub Pages',
-        dates: 'July 2023',
+        period: 'July 2023',
         projectDescription: `
                 Beginning the hunt for a student job, I've made this portfolio site to showcase my coding experience.
                 <br /> <br />
@@ -113,11 +115,11 @@ const projects = [
     },
     {
         id: 'red-wine-classifer',
-        image_path: '/assets/red-wine-classifier.png',
+        imagePath: '/assets/red-wine-classifier.png',
         title: 'Red Wine Classifier',
         developmentTools: "Python, pandas, scikit-learn",
         shortDescription: 'Decision Tree Classifer trained to determine wine quality',
-        dates: 'December 2022',
+        period: 'December 2022',
         projectDescription: `
             This project is one of 3 I coded for my university application. I showcased these projects in a short YouTube video.
             <br /> <br />
@@ -128,11 +130,11 @@ const projects = [
     },
     {
         id: 'orbiter',
-        image_path: '/assets/orbiter.png',
+        imagePath: '/assets/orbiter.png',
         title: 'Orbiter',
         developmentTools: "JavaScript",
         shortDescription: '2D solar system simulation with orbital mechanics',
-        dates: 'December 2022',
+        period: 'December 2022',
         projectDescription: `
             This project is one of 3 I coded for my university application. I showcased these projects in a short YouTube video.
             <br /> <br />
@@ -145,11 +147,11 @@ const projects = [
     },
     {
         id: 'bouncy-balls',
-        image_path: '/assets/bouncy-balls.png',
+        imagePath: '/assets/bouncy-balls.png',
         title: 'Bouncy Balls',
         developmentTools: "Python, Pygame",
         shortDescription: '2D simulation of elastic collisions',
-        dates: 'December 2022',
+        period: 'December 2022',
         projectDescription: `
             This project is one of 3 I coded for my university application. I showcased these projects in a short YouTube video.
             <br /> <br />
@@ -160,4 +162,4 @@ const projects = [
     },
 ];
 
-export default projects
+export default projects;

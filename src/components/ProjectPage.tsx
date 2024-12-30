@@ -1,14 +1,8 @@
 import React, { useEffect } from 'react';
 import { useParams, Navigate } from 'react-router-dom';
 import "./ProjectPage.css";
-import projects from './data/projectsData';
-
-interface ProjectDetail {
-  id: string;
-  image_path: string;
-  title: string;
-  projectDescription: string;
-}
+import projectsData from '../data/projectsData';
+import { ProjectDetail } from '../types/projectTypes';
 
 const ProjectPage: React.FC = () => {
   useEffect(() => {
@@ -16,7 +10,7 @@ const ProjectPage: React.FC = () => {
   }, []);
 
   const { projectId } = useParams<{ projectId: string }>();
-  const project: ProjectDetail | undefined = projects.find((p) => p.id === projectId);
+  const project: ProjectDetail | undefined = projectsData.find((p) => p.id === projectId);
 
   if (!project) {
     return <Navigate to="/projects" replace />;
@@ -26,7 +20,7 @@ const ProjectPage: React.FC = () => {
     <div className="project-page">
       <div key={project.id}>
         <br />
-        <img src={project.image_path} alt={project.title} />
+        <img src={project.imagePath} alt={project.title} />
         <div className="content">
           <h1>{project.title}</h1>
           <div dangerouslySetInnerHTML={{ __html: project.projectDescription || '' }}></div>
