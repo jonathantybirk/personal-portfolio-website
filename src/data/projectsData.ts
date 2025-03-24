@@ -39,7 +39,7 @@ const projects: ProjectDetail[] = [
         shortDescription: 'Practical MLOps with CI/CD, data versioning, reproducibility, and scalable ML deployment.',
         period: 'January 2025',
         projectDescription: `
-            Project for the beloved  <a href="https://skaftenicki.github.io/dtu_mlops/" target="_blank" rel="noopener noreferrer">Machine Learning Operations course<\a>↗ at DTU.
+            Project for the beloved <a href="https://skaftenicki.github.io/dtu_mlops/" target="_blank" rel="noopener noreferrer">Machine Learning Operations course</a>↗ at DTU.
             <br /> 
             <br /> <a href="https://github.com/jonathantybirk/instrument-classifier" target="_blank" rel="noopener noreferrer">See the source code on GitHub</a>↗
             `
