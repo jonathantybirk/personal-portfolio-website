@@ -30,7 +30,7 @@ const ContactInfo: React.FC = () => (
     <p><b>Email:</b> <br /> jonathantybirk@gmail.com</p>
     <br /><p><b>LinkedIn:</b> <br /> <a href="https://www.linkedin.com/in/jonathantybirk/" target="_blank" rel="noopener noreferrer">linkedin.com/in/jonathantybirk/</a></p>
     <br /><p><b>GitHub:</b> <br /> <a href="https://github.com/jonathantybirk/" target="_blank" rel="noopener noreferrer">github.com/jonathantybirk/</a></p>
-    {/* <br /><p><a href="/resume" target="_blank" rel="noopener noreferrer"><b>Resume↗</b></a></p> */}
+    <br /><p><a href="/resume" target="_blank" rel="noopener noreferrer"><b>Resume↗</b></a></p>
   </>
 );
 
