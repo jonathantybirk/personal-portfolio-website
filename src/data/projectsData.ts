@@ -2,12 +2,71 @@ import { ProjectDetail } from '../types/projectTypes';
 
 const projects: ProjectDetail[] = [
     {
+        id: 'equivariant-graph-neural-network',
+        imagePath: '/assets/equivariant-graph-neural-network.png',
+        title: 'Equivariance in LIDAR Point Clouds',
+        developmentTools: "PyTorch, trimesh",
+        shortDescription: "Predicting object center of mass from synthetic LiDAR scans using equivariant GNNs",
+        period: 'February - June 2025',
+        projectDescription: `
+            We are training an E(n)-Equivariant Graph Neural Network (EGNN) to predict the center of mass of objects from simulated LiDAR scans.
+            <br /><br />
+            Point clouds are generated from realistic 3D meshes scanned by 1-5 virtual LiDAR sensors. True centers of mass are computed assuming uniform density.
+            <br /><br />
+            The EGNN enforces equivariance to 3D translations and rotations. We compare it to a standard GNN, with and without data augmentation, as well as geometric baselines based on point centroids and convex hulls.
+            <br /><br />
+            Evaluation includes prediction error and how well predictions transform under rotated inputs.
+        `
+    },    
+    {
+        id: 'dnd-world-wiki',
+        imagePath: '/assets/temporary.png',
+        title: 'D&D World Wiki',
+        developmentTools: "Node.js, TypeScript, Next.js, React",
+        shortDescription: "Full-stack wiki website for my friend's D&D world",
+        period: 'From February 2025',
+        projectDescription: `
+            Building a wiki website with my friend for his D&D world. We are building with Next.js and TypeScript, using a PostgreSQL database.
+            <br /> 
+            <br /> <a href="https://github.com/philippzhuravlev/wiki-site/" target="_blank" rel="noopener noreferrer">See the source code on GitHub</a>↗
+            `
+    },
+    {
+        id: 'music-classifier',
+        imagePath: '/assets/instrument-classifier.png',
+        title: 'Instrument Classifier',
+        developmentTools: "Docker, Google Cloud, GitHub Actions, PyTorch",
+        shortDescription: 'Practical MLOps with CI/CD, data versioning, reproducibility, and scalable ML deployment.',
+        period: 'January 2025',
+        projectDescription: `
+            Project for the beloved  <a href="https://skaftenicki.github.io/dtu_mlops/" target="_blank" rel="noopener noreferrer">Machine Learning Operations course<\a>↗ at DTU.
+            <br /> 
+            <br /> <a href="https://github.com/jonathantybirk/instrument-classifier" target="_blank" rel="noopener noreferrer">See the source code on GitHub</a>↗
+            `
+    },
+    {
+        id: 'rocketry-mission-control-system',
+        imagePath: '/assets/rocketry-mission-control-system.jpg',
+        title: 'Rocketry Mission Control System at DanSTAR',
+        developmentTools: ".NET, C#, TCP",
+        shortDescription: 'Mission Control System to integrate with the Rocket Flight Computer',
+        period: 'From September 2024',
+        projectDescription: `
+            Developing the Mission Control System for the <a href="https://www.danstar.dk/" target="_blank" rel="noopener noreferrer">Danish Student Association for Rocketry</a>↗.
+            <br />
+            <br /> Implementing unit testing, logging, and TCP-based communication with the flight computer. 
+            <br /> In collaboration with my Team Lead, I've prepared the system for integration with the new flight computer, which is being developed in parallel.
+            <br />
+            <br /> As a Board Member, I contribute to the organization's strategic direction.
+            `
+    },
+    {
         id: 'unity-game',
         imagePath: '/assets/unity-game.png',
-        title: 'Isometric Turn-Based Strategy Game (in progress)',
+        title: 'Isometric Turn-Based Strategy Game',
         developmentTools: "C#, Design Patterns",
         shortDescription: '2D isometric turn-based tactical RPG',
-        period: 'From July 2024',
+        period: 'July & August 2024',
         projectDescription: `
             Working with a friend through the Summer to get closer to the C family of languages and improve my object-oriented programming.
             <br /> <br />
