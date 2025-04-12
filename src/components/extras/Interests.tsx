@@ -38,7 +38,6 @@ const Interests: React.FC = () => {
       <br />
       <b><i>Tech</i></b> <br />
       AI Explained (@aiexplained-official) <br />
-      bycloud (@bycloudAI) <br />
       WVFRM Podcast (@Waveform) <br />
       <br />
       <b><i>Health</i></b> <br />
