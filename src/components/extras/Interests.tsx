@@ -60,6 +60,8 @@ const Interests: React.FC = () => {
       Y Combinator (@ycombinator) <br />
       <br />
       <b><i>Geopolitics</i></b> <br />
+      Cappy Army (@ChrisCappy)
+      Justin Taylor (@Justin_Taylor)
       Perun (@PerunAU) <br />
       PolyMatter (@PolyMatter) <br />
       Task & Purpose (@Taskandpurpose) <br />
@@ -69,6 +71,7 @@ const Interests: React.FC = () => {
       Bridges Podcast (@BridgesStudio) <br />
       hankschannel (@hankschannel) <br />
       Knowing Better (@KnowingBetter) <br />
+      Paul Platt (@paulplattcomedy) <br />
       <br />
       <b><i>Art and media</i></b> <br />
       Adam Neely (@AdamNeely) <br />
