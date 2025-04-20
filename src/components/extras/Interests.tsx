@@ -60,8 +60,8 @@ const Interests: React.FC = () => {
       Y Combinator (@ycombinator) <br />
       <br />
       <b><i>Geopolitics</i></b> <br />
-      Cappy Army (@ChrisCappy)
-      Justin Taylor (@Justin_Taylor)
+      Cappy Army (@ChrisCappy)  <br />
+      Justin Taylor (@Justin_Taylor)  <br />
       Perun (@PerunAU) <br />
       PolyMatter (@PolyMatter) <br />
       Task & Purpose (@Taskandpurpose) <br />
