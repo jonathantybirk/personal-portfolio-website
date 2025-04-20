@@ -64,7 +64,6 @@ const Interests: React.FC = () => {
       Justin Taylor (@Justin_Taylor)  <br />
       Perun (@PerunAU) <br />
       PolyMatter (@PolyMatter) <br />
-      Task & Purpose (@Taskandpurpose) <br />
       Wendover Productions (@Wendoverproductions) <br />
       <br />
       <b><i>Society</i></b> <br />
