@@ -53,6 +53,7 @@ const Interests: React.FC = () => {
       <br />
       <b><i>Finance and entrepreneurship</i></b> <br />
       Alex Hormozi (@AlexHormozi) <br />
+      Company Man (@companyman114) <br />
       Dropping In Podcast (@DroppingInPodcast) <br />
       Modern MBA (@ModernMBA) <br />
       Money & Macro (@MoneyMacro) <br />
@@ -70,10 +71,8 @@ const Interests: React.FC = () => {
       Bridges Podcast (@BridgesStudio) <br />
       hankschannel (@hankschannel) <br />
       Knowing Better (@KnowingBetter) <br />
-      Paul Platt (@paulplattcomedy) <br />
       <br />
       <b><i>Art and media</i></b> <br />
-      Adam Neely (@AdamNeely) <br />
       Big Joel (@BigJoel) <br />
       Jacob Geller (@JacobGeller) <br />
       Solar Sands (@SolarSands) <br />
