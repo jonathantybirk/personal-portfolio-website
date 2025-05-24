@@ -78,7 +78,7 @@ const Interests: React.FC = () => {
         <a href="https://www.youtube.com/@SabineHossenfelder" target="_blank" rel="noopener noreferrer">@SabineHossenfelder</a>
       )<br />
       Tom Scott (
-        <a href="https://www.youtube.com/@TomScotGo" target="_blank" rel="noopener noreferrer">@TomScotGo</a>
+        <a href="https://www.youtube.com/@TomScottGo" target="_blank" rel="noopener noreferrer">@TomScottGo</a>
       )<br />
       Veritasium (
         <a href="https://www.youtube.com/@veritasium" target="_blank" rel="noopener noreferrer">@veritasium</a>
