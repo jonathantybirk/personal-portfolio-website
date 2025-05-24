@@ -33,14 +33,14 @@ const Interests: React.FC = () => {
       </a><br />
       <br />
       <h3>Current thinkers I appreciate</h3>
-      <a href="https://en.wikipedia.org/wiki/Hank_Green" target="_blank" rel="noopener noreferrer">
-        Hank Green
+      <a href="https://en.wikipedia.org/wiki/Sarah_C._M._Paine" target="_blank" rel="noopener noreferrer">
+        Sarah C. M. Paine (b. 1957)
       </a><br />
       <a href="https://en.wikipedia.org/wiki/Paul_Graham_(programmer)" target="_blank" rel="noopener noreferrer">
-        Paul Graham
+        Paul Graham (b. 1964)
       </a><br />
-      <a href="https://en.wikipedia.org/wiki/Sarah_C._M._Paine" target="_blank" rel="noopener noreferrer">
-        Sarah C. M. Paine
+      <a href="https://en.wikipedia.org/wiki/Hank_Green" target="_blank" rel="noopener noreferrer">
+        Hank Green (b. 1980)
       </a><br />
       <br />
       <h3>YouTube channels I learn from</h3>
