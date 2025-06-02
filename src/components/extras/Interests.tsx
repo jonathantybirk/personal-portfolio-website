@@ -175,6 +175,9 @@ const Interests: React.FC = () => {
       Big Joel (
         <a href="https://www.youtube.com/@BigJoel" target="_blank" rel="noopener noreferrer">@BigJoel</a>
       )<br />
+      In Deep Geek (
+        <a href="https://www.youtube.com/@InDeepGeek" target="_blank" rel="noopener noreferrer">@InDeepGeek</a>
+      )<br />
       Jacob Geller (
         <a href="https://www.youtube.com/@JacobGeller" target="_blank" rel="noopener noreferrer">@JacobGeller</a>
       )<br />
