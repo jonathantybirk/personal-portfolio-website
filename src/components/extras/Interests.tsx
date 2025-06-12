@@ -7,7 +7,7 @@ const Interests: React.FC = () => {
 
   return (
     <div style={{ textAlign: 'left', paddingLeft: '5px' }}>
-      <h3>Favorite media</h3>
+      <h3>Media I find inspiring</h3>
       <a href="https://en.wikipedia.org/wiki/The_Lord_of_the_Rings_(film_series)" target="_blank" rel="noopener noreferrer">
         Lord of the Rings (2001-2003 movie trilogy)
       </a><br />
@@ -21,7 +21,7 @@ const Interests: React.FC = () => {
         Everything Everywhere All at Once (2022 movie)
       </a><br />
       <br />
-      <h3>Philosophers of interest</h3>
+      <h3>Philosophers I resonate with</h3>
       <a href="https://en.wikipedia.org/wiki/John_Stuart_Mill" target="_blank" rel="noopener noreferrer">
         John Stuart Mill (b. 1806)
       </a><br />
@@ -32,7 +32,7 @@ const Interests: React.FC = () => {
         Albert Camus (b. 1913)
       </a><br />
       <br />
-      <h3>Current thinkers I appreciate</h3>
+      <h3>People who influence me</h3>
       <a href="https://en.wikipedia.org/wiki/Sarah_C._M._Paine" target="_blank" rel="noopener noreferrer">
         Sarah C. M. Paine (b. 1957)
       </a><br />
