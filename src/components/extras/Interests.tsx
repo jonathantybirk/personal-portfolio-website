@@ -133,22 +133,22 @@ const Interests: React.FC = () => {
       Modern MBA (
         <a href="https://www.youtube.com/@ModernMBA" target="_blank" rel="noopener noreferrer">@ModernMBA</a>
       )<br />
-      Money & Macro (
-        <a href="https://www.youtube.com/@MoneyMacro" target="_blank" rel="noopener noreferrer">@MoneyMacro</a>
-      )<br />
-      Patrick Boyle (
-        <a href="https://www.youtube.com/@PBoyle" target="_blank" rel="noopener noreferrer">@PBoyle</a>
-      )<br />
       Y Combinator (
         <a href="https://www.youtube.com/@ycombinator" target="_blank" rel="noopener noreferrer">@ycombinator</a>
       )<br />
       <br />
-      <b><i>Geopolitics</i></b> <br />
+      <b><i>Geopolitics and the economy</i></b> <br />
       Cappy Army (
         <a href="https://www.youtube.com/@ChrisCappy" target="_blank" rel="noopener noreferrer">@ChrisCappy</a>
       )<br />
       Justin Taylor (
         <a href="https://www.youtube.com/@Justin_Taylor" target="_blank" rel="noopener noreferrer">@Justin_Taylor</a>
+      )<br />
+      Money & Macro (
+        <a href="https://www.youtube.com/@MoneyMacro" target="_blank" rel="noopener noreferrer">@MoneyMacro</a>
+      )<br />
+      Patrick Boyle (
+        <a href="https://www.youtube.com/@PBoyle" target="_blank" rel="noopener noreferrer">@PBoyle</a>
       )<br />
       Perun (
         <a href="https://www.youtube.com/@PerunAU" target="_blank" rel="noopener noreferrer">@PerunAU</a>
