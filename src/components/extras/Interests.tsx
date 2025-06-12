@@ -9,7 +9,7 @@ const Interests: React.FC = () => {
     <div style={{ textAlign: 'left', paddingLeft: '5px' }}>
       <h3>Media I find inspiring</h3>
       <a href="https://en.wikipedia.org/wiki/The_Lord_of_the_Rings_(film_series)" target="_blank" rel="noopener noreferrer">
-        Lord of the Rings (2001-2003 movie trilogy)
+        The Lord of the Rings (2001-2003 movie trilogy)
       </a><br />
       <a href="https://en.wikipedia.org/wiki/Blade_Runner_2049" target="_blank" rel="noopener noreferrer">
         Blade Runner 2049 (2017 movie)
@@ -120,7 +120,7 @@ const Interests: React.FC = () => {
         <a href="https://www.youtube.com/@SenseiSeth" target="_blank" rel="noopener noreferrer">@SenseiSeth</a>
       )<br />
       <br />
-      <b><i>Finance and entrepreneurship</i></b> <br />
+      <b><i>Business and entrepreneurship</i></b> <br />
       Alex Hormozi (
         <a href="https://www.youtube.com/@AlexHormozi" target="_blank" rel="noopener noreferrer">@AlexHormozi</a>
       )<br />
