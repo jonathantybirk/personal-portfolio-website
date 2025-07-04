@@ -19,19 +19,6 @@ const projects: ProjectDetail[] = [
         `
     },    
     {
-        id: 'dnd-world-wiki',
-        imagePath: '/assets/temporary.png',
-        title: 'D&D World Wiki',
-        developmentTools: "Node.js, TypeScript, Next.js, React",
-        shortDescription: "Full-stack wiki website for my friend's D&D world",
-        period: 'From February 2025',
-        projectDescription: `
-            Building a wiki website with my friend for his D&D world. We are building with Next.js and TypeScript, using a PostgreSQL database.
-            <br /> 
-            <br /> <a href="https://github.com/philippzhuravlev/wiki-site/" target="_blank" rel="noopener noreferrer">See the source code on GitHub</a>↗
-            `
-    },
-    {
         id: 'music-classifier',
         imagePath: '/assets/instrument-classifier.png',
         title: 'Instrument Classifier',
@@ -58,19 +45,6 @@ const projects: ProjectDetail[] = [
             <br /> In collaboration with my Team Lead, I've prepared the system for integration with the new flight computer, which is being developed in parallel.
             <br />
             <br /> As a Board Member, I contribute to the organization's strategic direction.
-            `
-    },
-    {
-        id: 'unity-game',
-        imagePath: '/assets/unity-game.png',
-        title: 'Isometric Turn-Based Strategy Game',
-        developmentTools: "C#, Design Patterns",
-        shortDescription: '2D isometric turn-based tactical RPG',
-        period: 'July & August 2024',
-        projectDescription: `
-            Working with a friend through the Summer to get closer to the C family of languages and improve my object-oriented programming.
-            <br /> <br />
-            Extensive use of inheritance and interfaces, and balanced application (and sometimes avoidance) of the Singleton design pattern. 
             `
     },
     {
@@ -141,35 +115,6 @@ const projects: ProjectDetail[] = [
             The agents valued game states using Deep Q-networks trained with reinforcement learning.
             <br /> <br />
             <a href="https://github.com/jonathantybirk/Multi-Agent-Pong-Project/blob/main/Report.pdf" target="_blank" rel="noopener noreferrer">Read the report</a>↗
-            `
-    },
-    {
-        id: 'wordpress-blog',
-        imagePath: '/assets/wordpress-blog.png',
-        title: 'WordPress Blog',
-        developmentTools: "WordPress, Google Cloud Platform",
-        shortDescription: 'Self-hosted WordPress website',
-        period: 'August 2023',
-        projectDescription: `
-            During the summer, I decided to move my personal blog from wordpress.com to a self-hosted site. 
-            I hosted the site on an Ubuntu server using Google Cloud Services, gaining some experience in managing a full stack environment. The site is currently offline due to costs.
-            <br /> <br />
-            <strike><b>Visit the site</b></strike>↗ (currently unavailable)
-            `
-    },
-    {
-        id: 'legacy-static-portfolio-website',
-        imagePath: '/assets/legacy-static-portfolio-website.png',
-        title: 'Static Portfolio Website (Legacy)',
-        developmentTools: "HTML, CSS",
-        shortDescription: 'Static portfolio website hosted on GitHub Pages',
-        period: 'July 2023',
-        projectDescription: `
-                Beginning the hunt for a student job, I've made this portfolio site to showcase my coding experience.
-                <br /> <br />
-                It's a static website coded with HTML and CSS. I host it through GitHub Pages, where the source code is avaliable.
-                <br /> <br />
-                <a href="https://github.com/jonathantybirk/jonathantybirk.github.io" target="_blank" rel="noopener noreferrer">See the source code on GitHub</a>↗
             `
     },
     {
