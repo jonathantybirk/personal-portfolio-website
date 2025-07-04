@@ -40,10 +40,10 @@ const BottomSection: React.FC = () => (
       I am a BSc Artificial Intelligence and Data student at the Technical University of Denmark. 
       This site is where I showcase (and host) some of my personal projects.
     </p>
-    <p>
+    {/* <p>
       <br />
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<h1><a href="/projects/orbiter/demo" target="_blank" rel="noopener noreferrer">&nbsp; 🚀 &nbsp;</a> &nbsp; <a href="/interests" target="_blank" rel="noopener noreferrer">&nbsp; 📖 &nbsp;</a></h1>
-    </p>
+    </p> */}
   </div>
 );
 
