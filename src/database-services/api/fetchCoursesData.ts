@@ -2,6 +2,11 @@ import supabase from '../supabaseClient';
 import { Semester } from '../../types/courseTypes';
 
 export async function fetchCoursesData(): Promise<Semester[]> {
+  if (!supabase) {
+    console.warn('Supabase not initialized. Returning empty course list.');
+    return [];
+  }
+
   const { data: semesters, error: semestersError } = await supabase
     .from('semesters')
     .select(`
