@@ -33,6 +33,9 @@ const Interests: React.FC = () => {
       </a><br />
       <br />
       <h3>People who influence me</h3>
+      <a href="https://en.wikipedia.org/wiki/Francis_Fukuyama" target="_blank" rel="noopener noreferrer">
+        Francis Fukuyama (b. 1952)
+      </a><br />
       <a href="https://en.wikipedia.org/wiki/Sarah_C._M._Paine" target="_blank" rel="noopener noreferrer">
         Sarah C. M. Paine (b. 1957)
       </a><br />
