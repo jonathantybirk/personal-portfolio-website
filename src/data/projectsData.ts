@@ -9,7 +9,7 @@ const projects: ProjectDetail[] = [
         shortDescription: "National champion solution for evaluating emergency medical statements under strict speed, privacy, and memory constraints",
         period: 'August 2025',
         projectDescription: `
-            Competition task for the <a href="https://cases.dmiai.dk/teams" target="_blank" rel="noopener noreferrer">Danish National Student Championship in AI 2025</a>↗. 
+            Competition task for the <a href="https://cases.dmiai.dk/" target="_blank" rel="noopener noreferrer">Danish National Student Championship in AI 2025</a>↗. 
             The goal was to classify medical statements both by truthfulness (binary) and by one of 115 medical topics (multi-class), 
             within tight runtime, offline inference, and VRAM limits.
             <br /><br />
