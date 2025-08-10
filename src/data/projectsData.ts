@@ -2,22 +2,46 @@ import { ProjectDetail } from '../types/projectTypes';
 
 const projects: ProjectDetail[] = [
     {
+        id: 'emergency-healthcare-rag',
+        imagePath: '/assets/emergency-healthcare-rag.png',
+        title: 'Emergency Healthcare RAG - DM in AI 2025',
+        developmentTools: "Ollama, Python, HPC cluster",
+        shortDescription: "National champion solution for evaluating emergency medical statements under strict speed, privacy, and memory constraints",
+        period: 'August 2025',
+        projectDescription: `
+            Competition task for the <a href="https://cases.dmiai.dk/teams" target="_blank" rel="noopener noreferrer">Danish National Student Championship in AI 2025</a>↗. 
+            The goal was to classify medical statements both by truthfulness (binary) and by one of 115 medical topics (multi-class), 
+            within tight runtime, offline inference, and VRAM limits.
+            <br /><br />
+            I designed a RAG-style system where a BM25 index retrieves relevant chunks from a local database of medical reference articles. 
+            These chunks and the statement are fed to a local LLM (Gemma3:27B) to produce a true/false verdict and topic classification. 
+            <br /><br />
+            The solution was implemented and tuned on a high-performance computing cluster to meet speed and memory constraints, 
+            and achieved the highest evaluation-set accuracy for this task. 
+            Our team competed under the name 'Powered by SmartFridge' and went on to win the entire competition.
+            <br /><br />
+            <a href="https://github.com/bforbanks/dm-i-ai-2025/tree/emergency-healthcare-rag" target="_blank" rel="noopener noreferrer">See the source code on GitHub</a>↗
+        `
+    }, 
+    {
         id: 'equivariant-graph-neural-network',
         imagePath: '/assets/equivariant-graph-neural-network.png',
-        title: 'Equivariance in LIDAR Point Clouds',
-        developmentTools: "PyTorch, trimesh",
-        shortDescription: "Predicting object center of mass from synthetic LiDAR scans using equivariant GNNs",
+        title: 'Equivariance in LiDAR Point Clouds',
+        developmentTools: "PyTorch, e3nn, trimesh",
+        shortDescription: "SE(3)-equivariant GNN for predicting mesh centroids from sparse LiDAR scans",
         period: 'February - June 2025',
         projectDescription: `
-            We are training an E(n)-Equivariant Graph Neural Network (EGNN) to predict the center of mass of objects from simulated LiDAR scans.
+            We implemented a strictly SE(3)-equivariant graph neural network using spherical harmonics and Clebsch-Gordan tensor products to predict mesh centroids from sparse LiDAR point clouds.
             <br /><br />
-            Point clouds are generated from realistic 3D meshes scanned by 1-5 virtual LiDAR sensors. True centers of mass are computed assuming uniform density.
+            Point clouds were generated from ShapeNet meshes scanned by two virtual LiDAR sensors. Graphs were built with k-nearest neighbors and geometric edge features. 
             <br /><br />
-            The EGNN enforces equivariance to 3D translations and rotations. We compare it to a standard GNN, with and without data augmentation, as well as geometric baselines based on point centroids and convex hulls.
+            We compared a centroid baseline, a non-equivariant GNN, a non-equivariant GNN with random rotation augmentation, and our equivariant GNN.
             <br /><br />
-            Evaluation includes prediction error and how well predictions transform under rotated inputs.
+            The equivariant model achieved the lowest mean L2 error (0.0703) and zero equivariance error, matching the augmented GNN's accuracy but guaranteeing perfect rotational symmetry. This came at a ~6x inference-time cost in our Python-level implementation.
+            <br /><br />
+            <a href="https://github.com/jonathantybirk/equivariant-mesh-centroid-estimation" target="_blank" rel="noopener noreferrer">See the source code on GitHub</a>↗
         `
-    },    
+    },
     {
         id: 'music-classifier',
         imagePath: '/assets/instrument-classifier.png',
