@@ -26,22 +26,23 @@ const projects: ProjectDetail[] = [
     {
         id: 'equivariant-graph-neural-network',
         imagePath: '/assets/equivariant-graph-neural-network.png',
-        title: 'Equivariance in LiDAR Point Clouds',
+        title: 'Equivariance in LIDAR Point Clouds',
         developmentTools: "PyTorch, e3nn, trimesh",
-        shortDescription: "SE(3)-equivariant GNN for predicting mesh centroids from sparse LiDAR scans",
+        shortDescription: "Predicted object center of mass from synthetic LiDAR scans using an SE(3)-equivariant GNN",
         period: 'February - June 2025',
         projectDescription: `
-            We implemented a strictly SE(3)-equivariant graph neural network using spherical harmonics and Clebsch-Gordan tensor products to predict mesh centroids from sparse LiDAR point clouds.
+            We trained an SE(3)-Equivariant Graph Neural Network to predict the center of mass of objects from simulated LiDAR scans.
             <br /><br />
-            Point clouds were generated from ShapeNet meshes scanned by two virtual LiDAR sensors. Graphs were built with k-nearest neighbors and geometric edge features. 
+            Point clouds were generated from realistic 3D meshes scanned by 1-5 virtual LiDAR sensors. True centers of mass were computed assuming uniform density.
             <br /><br />
-            We compared a centroid baseline, a non-equivariant GNN, a non-equivariant GNN with random rotation augmentation, and our equivariant GNN.
+            The network enforced equivariance to 3D translations and rotations. We compared it to a standard GNN, with and without random rotation augmentation, as well as geometric baselines based on point centroids and convex hulls.
             <br /><br />
-            The equivariant model achieved the lowest mean L2 error (0.0703) and zero equivariance error, matching the augmented GNN's accuracy but guaranteeing perfect rotational symmetry. This came at a ~6x inference-time cost in our Python-level implementation.
+            The equivariant model matched the best baseline in accuracy while guaranteeing perfect rotational symmetry, at the cost of higher inference time.
             <br /><br />
             <a href="https://github.com/jonathantybirk/equivariant-mesh-centroid-estimation" target="_blank" rel="noopener noreferrer">See the source code on GitHub</a>↗
         `
     },
+
     {
         id: 'music-classifier',
         imagePath: '/assets/instrument-classifier.png',
