@@ -3,7 +3,7 @@ import { ProjectDetail } from '../types/projectTypes';
 const projects: ProjectDetail[] = [
     {
         id: 'emergency-healthcare-rag',
-        imagePath: '/assets/emergency-healthcare-rag.png',
+        imagePath: '/assets/temporary.png',
         title: 'Emergency Healthcare RAG - DM in AI 2025',
         developmentTools: "Ollama, Python, HPC cluster",
         shortDescription: "National champion solution for evaluating emergency medical statements under strict speed, privacy, and memory constraints",
