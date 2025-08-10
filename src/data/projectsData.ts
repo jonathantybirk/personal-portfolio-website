@@ -6,7 +6,7 @@ const projects: ProjectDetail[] = [
         imagePath: '/assets/temporary.png',
         title: 'Emergency Healthcare RAG - DM in AI 2025',
         developmentTools: "Ollama, Python, HPC cluster",
-        shortDescription: "National champion solution for evaluating emergency medical statements under strict speed, privacy, and memory constraints",
+        shortDescription: "National champion solution for evaluating emergency medical statements under speed and memory constraints",
         period: 'August 2025',
         projectDescription: `
             Competition task for the <a href="https://cases.dmiai.dk/" target="_blank" rel="noopener noreferrer">Danish National Student Championship in AI 2025</a>↗. 
