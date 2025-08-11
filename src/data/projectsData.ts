@@ -5,7 +5,7 @@ const projects: ProjectDetail[] = [
     id: 'healthcare-rag',
     imagePath: '/assets/healthcare-rag.png',
     title: 'Emergency Healthcare RAG - DM in AI 2025',
-    developmentTools: "Ollama, Python, HPC cluster",
+    developmentTools: "Ollama, HPC cluster",
     shortDescription: "National champion solution for evaluating medical statements under speed and memory constraints",
     period: 'August 2025',
     projectDescription: `
@@ -16,10 +16,9 @@ const projects: ProjectDetail[] = [
         I developed a retrieval-augmented system where BM25 indexing identifies the most relevant chunk from medical documentation. 
         The topic classification uses the source document, while the LLM (Gemma3:27B) evaluates truthfulness based on the retrieved chunk and statement.
         <br /><br />
-        The solution was optimized on a high-performance computing cluster and achieved 0.91 evaluation accuracy. 
-        Our team 'Powered by SmartFridge' won the overall national championship.
-        <br /><br />
-        <a href="https://github.com/bforbanks/dm-i-ai-2025/tree/emergency-healthcare-rag" target="_blank" rel="noopener noreferrer">See the source code on GitHub</a>↗
+        My teammate and I optimized the solution on a high-performance computing cluster, achieving 0.91 evaluation accuracy,
+        the highest in the competition for this task. Together with outstanding performances from my teammates on the other tasks,
+        our team 'Powered by SmartFridge' went on to win the competition.
     `
     },
     {
