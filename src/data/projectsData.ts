@@ -2,47 +2,45 @@ import { ProjectDetail } from '../types/projectTypes';
 
 const projects: ProjectDetail[] = [
     {
-        id: 'emergency-healthcare-rag',
-        imagePath: '/assets/temporary.png',
-        title: 'Emergency Healthcare RAG - DM in AI 2025',
-        developmentTools: "Ollama, Python, HPC cluster",
-        shortDescription: "National champion solution for evaluating medical statements under speed and memory constraints",
-        period: 'August 2025',
-        projectDescription: `
-            Competition task for the <a href="https://cases.dmiai.dk/" target="_blank" rel="noopener noreferrer">Danish National Student Championship in AI 2025</a>↗. 
-            The goal was to classify medical statements both by truthfulness (binary) and by one of 115 medical topics (multi-class), 
-            within tight runtime, offline inference, and VRAM limits.
-            <br /><br />
-            I designed a RAG-style system where a BM25 index retrieves relevant chunks from a local database of medical reference articles. 
-            These chunks and the statement are fed to a local LLM (Gemma3:27B) to produce a true/false verdict and topic classification. 
-            <br /><br />
-            The solution was implemented and tuned on a high-performance computing cluster to meet speed and memory constraints, 
-            and achieved the highest evaluation-set accuracy for this task. 
-            Our team competed under the name 'Powered by SmartFridge' and went on to win the entire competition.
-            <br /><br />
-            <a href="https://github.com/bforbanks/dm-i-ai-2025/tree/emergency-healthcare-rag" target="_blank" rel="noopener noreferrer">See the source code on GitHub</a>↗
-        `
-    }, 
+    id: 'emergency-healthcare-rag',
+    imagePath: '/assets/temporary.png',
+    title: 'Emergency Healthcare RAG - DM in AI 2025',
+    developmentTools: "Ollama, Python, HPC cluster",
+    shortDescription: "National champion solution for evaluating medical statements under speed and memory constraints",
+    period: 'August 2025',
+    projectDescription: `
+        Competition task for the <a href="https://cases.dmiai.dk/" target="_blank" rel="noopener noreferrer">Danish National Student Championship in AI 2025</a>↗. 
+        The goal was to classify medical statements both by truthfulness (binary) and by one of 115 medical topics (multi-class), 
+        within tight runtime, offline inference, and VRAM limits.
+        <br /><br />
+        I developed a retrieval-augmented system where BM25 indexing identifies the most relevant chunk from medical documentation. 
+        The topic classification uses the source document, while the LLM (Gemma3:27B) evaluates truthfulness based on the retrieved chunk and statement.
+        <br /><br />
+        The solution was optimized on a high-performance computing cluster and achieved 0.91 evaluation accuracy. 
+        Our team 'Powered by SmartFridge' won the overall national championship.
+        <br /><br />
+        <a href="https://github.com/bforbanks/dm-i-ai-2025/tree/emergency-healthcare-rag" target="_blank" rel="noopener noreferrer">See the source code on GitHub</a>↗
+    `
+    },
     {
         id: 'equivariant-graph-neural-network',
         imagePath: '/assets/equivariant-graph-neural-network.png',
         title: 'Equivariance in LIDAR Point Clouds',
         developmentTools: "PyTorch, e3nn, trimesh",
-        shortDescription: "Predicted object center of mass from synthetic LiDAR scans using an SE(3)-equivariant GNN",
+        shortDescription: "Predicting object center of mass from synthetic LiDAR scans using equivariant GNNs",
         period: 'February - June 2025',
         projectDescription: `
-            We trained an SE(3)-Equivariant Graph Neural Network to predict the center of mass of objects from simulated LiDAR scans.
+            We trained an E(n)-Equivariant Graph Neural Network (EGNN) to predict the center of mass of objects from simulated LiDAR scans.
             <br /><br />
             Point clouds were generated from realistic 3D meshes scanned by 1-5 virtual LiDAR sensors. True centers of mass were computed assuming uniform density.
             <br /><br />
-            The network enforced equivariance to 3D translations and rotations. We compared it to a standard GNN, with and without random rotation augmentation, as well as geometric baselines based on point centroids and convex hulls.
+            The EGNN enforced equivariance to 3D translations and rotations. We compared it to a standard GNN, with and without data augmentation, as well as geometric baselines based on point centroids and convex hulls.
             <br /><br />
             The equivariant model matched the best baseline in accuracy while guaranteeing perfect rotational symmetry, at the cost of higher inference time.
             <br /><br />
             <a href="https://github.com/jonathantybirk/equivariant-mesh-centroid-estimation" target="_blank" rel="noopener noreferrer">See the source code on GitHub</a>↗
         `
     },
-
     {
         id: 'music-classifier',
         imagePath: '/assets/instrument-classifier.png',
