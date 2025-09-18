@@ -103,9 +103,6 @@ const Interests: React.FC = () => {
       WVFRM Podcast (
         <a href="https://www.youtube.com/@Waveform" target="_blank" rel="noopener noreferrer">@Waveform</a>
       )<br />
-      Dwarkesh Patel (
-        <a href="https://www.youtube.com/@DwarkeshPatel" target="_blank" rel="noopener noreferrer">@DwarkeshPatel</a>
-      )<br />
       <br />
       <b><i>Health</i></b> <br />
       Adam Ragusea (
@@ -150,9 +147,6 @@ const Interests: React.FC = () => {
       )<br />
       Y Combinator (
         <a href="https://www.youtube.com/@ycombinator" target="_blank" rel="noopener noreferrer">@ycombinator</a>
-      )<br />
-      Founders Podcast (
-        <a href="https://www.youtube.com/@founderspodcast1" target="_blank" rel="noopener noreferrer">@founderspodcast1</a>
       )<br />
       <br />
       <b><i>Geopolitics and the economy</i></b> <br />
