@@ -97,6 +97,9 @@ const Interests: React.FC = () => {
       AI Explained (
         <a href="https://www.youtube.com/@aiexplained-official" target="_blank" rel="noopener noreferrer">@aiexplained-official</a>
       )<br />
+      Dwarkesh Patel (
+        <a href="https://www.youtube.com/@DwarkeshPatel" target="_blank" rel="noopener noreferrer">@DwarkeshPatel</a>
+      )<br />
       WVFRM Podcast (
         <a href="https://www.youtube.com/@Waveform" target="_blank" rel="noopener noreferrer">@Waveform</a>
       )<br />
@@ -135,6 +138,9 @@ const Interests: React.FC = () => {
       )<br />
       Dropping In Podcast (
         <a href="https://www.youtube.com/@DroppingInPodcast" target="_blank" rel="noopener noreferrer">@DroppingInPodcast</a>
+      )<br />
+      Founders Podcast (
+        <a href="https://www.youtube.com/@founderspodcast1" target="_blank" rel="noopener noreferrer">@founderspodcast1</a>
       )<br />
       Modern MBA (
         <a href="https://www.youtube.com/@ModernMBA" target="_blank" rel="noopener noreferrer">@ModernMBA</a>
