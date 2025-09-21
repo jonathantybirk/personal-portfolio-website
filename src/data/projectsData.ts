@@ -2,44 +2,44 @@ import { ProjectDetail } from '../types/projectTypes';
 
 const projects: ProjectDetail[] = [
     {
-    id: 'healthcare-rag',
-    imagePath: '/assets/healthcare-rag.jpg',
-    title: 'Emergency Healthcare RAG - DM in AI 2025',
-    developmentTools: "Ollama, HPC cluster",
-    shortDescription: "National champion solution for evaluating medical statements under speed and memory constraints",
-    period: 'August 2025',
-    projectDescription: `
-        Competition task for the <a href="https://cases.dmiai.dk/" target="_blank" rel="noopener noreferrer">Danish National Student Championship in AI 2025</a>↗. 
-        The goal was to classify medical statements both by truthfulness (binary) and by one of 115 medical topics (multi-class), 
-        within tight runtime, offline inference, and VRAM limits.
-        <br /><br />
-        I developed a retrieval-augmented system where BM25 indexing identifies the most relevant chunk from medical documentation. 
-        The topic classification uses the source document, while the LLM (Gemma3:27B) evaluates truthfulness based on the retrieved chunk and statement.
-        <br /><br />
-        My teammate and I optimized the solution on a high-performance computing cluster, achieving 0.91 evaluation accuracy,
-        the highest in the competition for this task. Together with outstanding performances from my teammates on the other tasks,
-        our team 'Powered by SmartFridge' went on to win the competition.
-    `
+        id: 'healthcare-rag',
+        imagePath: '/assets/healthcare-rag.jpg',
+        title: 'Emergency Healthcare RAG - DM in AI 2025',
+        developmentTools: "Ollama, HPC cluster",
+        shortDescription: "National champion solution for evaluating medical statements under speed and memory constraints",
+        period: 'August 2025',
+        projectDescription: `
+            Competition task for the <a href="https://dmiai.dk/" target="_blank" rel="noopener noreferrer">Danish National Student Championship in AI 2025</a>↗. 
+            The goal was to classify medical statements both by truthfulness (binary) and by one of 115 medical topics (multi-class), 
+            within tight runtime, offline inference, and VRAM limits.
+            <br /><br />
+            I developed a retrieval-augmented system where BM25 indexing identifies the most relevant chunk from medical documentation. 
+            The topic classification uses the source document, while the LLM (Gemma3:27B) evaluates truthfulness based on the retrieved chunk and statement.
+            <br /><br />
+            My teammate and I optimized the solution on a high-performance computing cluster, achieving 0.91 evaluation accuracy,
+            the highest in the competition for this task. Together with outstanding performances from my teammates on the other tasks,
+            our team 'Powered by SmartFridge' went on to <a href="https://www.linkedin.com/posts/jonathantybirk_we-are-the-2025-danish-national-student-champions-activity-7367586906336907264-uOr7/" target="_blank" rel="noopener noreferrer">win the competition</a>↗.
+        `
     },
     {
         id: 'equivariant-graph-neural-network',
         imagePath: '/assets/equivariant-graph-neural-network.png',
-        title: 'Equivariance in LIDAR Point Clouds',
+        title: 'Equivariance in LiDAR Point Clouds',
         developmentTools: "PyTorch, e3nn, trimesh",
-        shortDescription: "Predicting object center of mass from synthetic LiDAR scans using equivariant GNNs",
+        shortDescription: "Predicting object center of mass from synthetic LiDAR scans using SE(3)-equivariant GNNs",
         period: 'February - June 2025',
         projectDescription: `
-            We trained an E(n)-Equivariant Graph Neural Network (EGNN) to predict the center of mass of objects from simulated LiDAR scans.
+            We trained an SE(3)-Equivariant Graph Neural Network (GNN) to predict the center of mass of objects from simulated LiDAR scans.
             <br /><br />
             Point clouds were generated from realistic 3D meshes scanned by 1-5 virtual LiDAR sensors. True centers of mass were computed assuming uniform density.
             <br /><br />
-            The EGNN enforced equivariance to 3D translations and rotations. We compared it to a standard GNN, with and without data augmentation, as well as geometric baselines based on point centroids and convex hulls.
+            The SE(3)-Equivariant GNN enforced invariance to 3D translations and rotations. We compared it to a standard GNN, with and without data augmentation, as well as geometric baselines based on point centroids and convex hulls.
             <br /><br />
-            The equivariant model matched the best baseline in accuracy while guaranteeing perfect rotational symmetry, at the cost of higher inference time.
+            The equivariant model matched the best baseline in accuracy while guaranteeing perfect rotational and translational symmetry, at the cost of higher inference time.
             <br /><br />
             <a href="https://github.com/jonathantybirk/equivariant-mesh-centroid-estimation" target="_blank" rel="noopener noreferrer">See the source code on GitHub</a>↗
         `
-    },
+    },    
     {
         id: 'music-classifier',
         imagePath: '/assets/instrument-classifier.png',
@@ -98,6 +98,18 @@ const projects: ProjectDetail[] = [
             `
     },
     {
+        id: 'self-operating-computer',
+        imagePath: '/assets/self-operating-computer.png',
+        title: 'Self-Operating Computer',
+        developmentTools: "Python, LangChain",
+        shortDescription: 'We gave GPT-4V a mouse and keyboard',
+        period: 'February - May 2024',
+        projectDescription: `
+            I implemented LLM agents and tools in Python and LangChain for a self-operating computer, able to perceive a screen and navigate with mouse and keyboard. 
+            <br /> This was done at our startup Symbolik.ai. The startup did not succeed, but I learned a lot from the experience.
+        `
+    },
+    {
         id: 'boston-housing-analysis',
         imagePath: '/assets/boston-housing-model.png',
         title: 'Boston Housing Analysis',
@@ -114,16 +126,18 @@ const projects: ProjectDetail[] = [
             `
     },
     {
-        id: 'self-operating-computer',
-        imagePath: '/assets/self-operating-computer.png',
-        title: 'Self-Operating Computer',
-        developmentTools: "Python, LangChain",
-        shortDescription: 'We gave GPT-4V a mouse and keyboard',
-        period: 'February - May 2024',
+        id: 'membrane-degradation-modeling',
+        imagePath: '/assets/membrane-degradation-modeling.png',
+        title: 'Membrane Degradation Modeling',
+        developmentTools: "NumPy, pandas, SciPy, scikit-learn",
+        shortDescription: 'Contract work for Singapore start-up using classical machine learning for environmental services',
+        period: 'March 2024',
         projectDescription: `
-            I helped build a program to automatically perceive a computer screen and navigate around using keyboard and mouse with LangChain agents based on GPT-4V.
-            <br /> This was done for the startup Symbolik.ai to make more generalizable RPA.
-            `
+            Paid contract work for <a href="https://www.aprisium.com/" target="_blank" rel="noopener noreferrer">Aprisium Pte. Ltd.</a>↗, 
+            a Singapore-based environmental services start-up.
+            <br /><br />
+            I developed a data model to predict membrane degradation using regression and statistical analysis based on laws of chemistry.
+        `
     },
     {
         id: 'multi-agent-pong-project',
