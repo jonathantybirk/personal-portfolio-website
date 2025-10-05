@@ -24,7 +24,7 @@ const projects: ProjectDetail[] = [
     },
     {
         id: 'nemkonto-modernization',
-        imagePath: '/assets/nemkonto-modernization.svg',
+        imagePath: '/assets/nemkonto-modernization.png',
         title: 'NemKonto Modernization for Digitaliseringsstyrelsen',
         developmentTools: "Java, Spring Boot, React, SQL, XSD/XML",
         shortDescription: "Full-stack development on Denmark's national payment account system",
