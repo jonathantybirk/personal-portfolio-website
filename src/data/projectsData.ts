@@ -19,7 +19,7 @@ const projects: ProjectDetail[] = [
             My teammate and I optimized the solution on a high-performance computing cluster, achieving 0.91 evaluation accuracy,
             the highest in the competition for this task. Together with outstanding performances from my teammates on the other tasks,
             our team 'Powered by SmartFridge' went on to <a href="https://www.linkedin.com/posts/jonathantybirk_we-are-the-2025-danish-national-student-champions-activity-7367586906336907264-uOr7/" target="_blank" rel="noopener noreferrer">win the competition</a>↗.
-            <br />
+            <br /><br />
         `
     },
     {
@@ -39,7 +39,7 @@ const projects: ProjectDetail[] = [
             The equivariant model matched the best baseline in accuracy while guaranteeing perfect rotational and translational symmetry, at the cost of higher inference time.
             <br /><br />
             <a href="https://github.com/jonathantybirk/equivariant-mesh-centroid-estimation" target="_blank" rel="noopener noreferrer">See the source code on GitHub</a>↗
-            <br />
+            <br /><br />
         `
     },    
     {
@@ -53,7 +53,7 @@ const projects: ProjectDetail[] = [
             Project for the beloved <a href="https://skaftenicki.github.io/dtu_mlops/" target="_blank" rel="noopener noreferrer">Machine Learning Operations course</a>↗ at DTU.
             <br /> 
             <br /> <a href="https://github.com/jonathantybirk/instrument-classifier" target="_blank" rel="noopener noreferrer">See the source code on GitHub</a>↗
-            <br />
+            <br /><br />
         `
     },
     {
@@ -73,7 +73,7 @@ const projects: ProjectDetail[] = [
             I'm now working on embedded software for the Flight Computer.
             <br /><br />
             As Treasurer & Board Member, I handle finances and contribute to the organization's strategic direction.
-            <br />
+            <br /><br />
         `
     },
     {
@@ -88,7 +88,7 @@ const projects: ProjectDetail[] = [
             <br /> Deployed with Vercel and Supabase.
             <br />
             <br /> You are here.
-            <br />
+            <br /><br />
         `
     },
     {
@@ -103,20 +103,7 @@ const projects: ProjectDetail[] = [
             to examine the effect of user sentiment and point of view on the model's moral evaluations.
             <br /> <br />
             <a href="https://github.com/jonathantybirk/Individual-Assignment-02445-course-DTU/blob/main/Group-Assignment.pdf" target="_blank" rel="noopener noreferrer">Read the report</a>↗
-            <br />
-        `
-    },
-    {
-        id: 'self-operating-computer',
-        imagePath: '/assets/self-operating-computer.png',
-        title: 'Self-Operating Computer',
-        developmentTools: "Python, LangChain",
-        shortDescription: 'We gave GPT-4V a mouse and keyboard',
-        period: 'February - May 2024',
-        projectDescription: `
-            I implemented LLM agents and tools in Python and LangChain for a self-operating computer, able to perceive a screen and navigate with mouse and keyboard. 
-            <br /> This was done at our startup Symbolik.ai. The startup did not succeed, but I learned a lot from the experience.
-            <br />
+            <br /><br />
         `
     },
     {
@@ -133,7 +120,7 @@ const projects: ProjectDetail[] = [
             <a href="https://github.com/jonathantybirk/Boston-Housing-Statistical-Analysis/blob/main/Data%20Analysis%20Report.pdf" target="_blank" rel="noopener noreferrer">Read the PCA report</a>↗
             <br /> <br />
             <a href="https://github.com/jonathantybirk/Boston-Housing-Statistical-Analysis/blob/main/Modelling%20Report.pdf" target="_blank" rel="noopener noreferrer">Read the Model Evaluation Report</a>↗
-            <br />
+            <br /><br />
         `
     },
     {
@@ -148,7 +135,20 @@ const projects: ProjectDetail[] = [
             a Singapore-based environmental services start-up.
             <br /><br />
             I developed a data model to predict membrane degradation using regression and statistical analysis based on laws of chemistry.
-            <br />
+            <br /><br />
+        `
+    },
+    {
+        id: 'self-operating-computer',
+        imagePath: '/assets/self-operating-computer.png',
+        title: 'Self-Operating Computer',
+        developmentTools: "Python, LangChain",
+        shortDescription: 'We gave GPT-4V a mouse and keyboard',
+        period: 'February - May 2024',
+        projectDescription: `
+            I implemented LLM agents and tools in Python and LangChain for a self-operating computer, able to perceive a screen and navigate with mouse and keyboard. 
+            <br /> This was done at our startup Symbolik.ai. The startup did not succeed, but I learned a lot from the experience.
+            <br /><br />
         `
     },
     {
@@ -163,7 +163,7 @@ const projects: ProjectDetail[] = [
             The agents valued game states using Deep Q-networks trained with reinforcement learning.
             <br /> <br />
             <a href="https://github.com/jonathantybirk/Multi-Agent-Pong-Project/blob/main/Report.pdf" target="_blank" rel="noopener noreferrer">Read the report</a>↗
-            <br />
+            <br /><br />
         `
     },
     {
@@ -179,7 +179,7 @@ const projects: ProjectDetail[] = [
             <a href="https://youtu.be/2n58APJq_Ik?si=mgQEZBPz_z0alnus" target="_blank" rel="noopener noreferrer">Watch the YouTube video presentation</a>↗
             <br /> <br />
             <a href="https://github.com/jonathantybirk/DTU-application-projects" target="_blank" rel="noopener noreferrer">See the source code on GitHub</a>↗
-            <br />
+            <br /><br />
         `
     },
     {
@@ -197,7 +197,7 @@ const projects: ProjectDetail[] = [
             <a href="https://github.com/jonathantybirk/DTU-application-projects" target="_blank" rel="noopener noreferrer">See the source code on GitHub</a>↗
             <br /> <br />
             <a href="/projects/orbiter/demo" target="_blank" rel="noopener noreferrer">Try out the demo</a>↗
-            <br />
+            <br /><br />
         `
     },
     {
@@ -213,7 +213,7 @@ const projects: ProjectDetail[] = [
             <a href="https://youtu.be/2n58APJq_Ik?si=mgQEZBPz_z0alnus" target="_blank" rel="noopener noreferrer">Watch the YouTube video presentation</a>↗
             <br /> <br />
             <a href="https://github.com/jonathantybirk/DTU-application-projects" target="_blank" rel="noopener noreferrer">See the source code on GitHub</a>↗
-            <br />
+            <br /><br />
         `
     },
 ];
