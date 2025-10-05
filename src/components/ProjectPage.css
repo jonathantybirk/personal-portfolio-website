@@ -19,6 +19,8 @@
 
 .project-page img {
     max-width: 80%;
+    max-height: 16rem;
+    width: auto;
     height: auto;
     display: block;
     margin: 0 auto;
@@ -46,6 +48,8 @@
 
     .project-page img {
         max-width: 90%;
+        max-height: 16rem;
+        width: auto;
         height: auto;
     }
 
