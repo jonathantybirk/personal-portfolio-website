@@ -70,8 +70,11 @@ const projects: ProjectDetail[] = [
         period: 'January 2025',
         projectDescription: `
             Project for the beloved <a href="https://skaftenicki.github.io/dtu_mlops/" target="_blank" rel="noopener noreferrer">Machine Learning Operations course</a>↗ at DTU.
-            <br /> 
-            <br /> <a href="https://github.com/jonathantybirk/instrument-classifier" target="_blank" rel="noopener noreferrer">See the source code on GitHub</a>↗
+            <br /><br />
+            We built a classifier for four musical instruments (guitar, drums, violin, piano) using PyTorch, containerized it with Docker, and integrated data versioning with DVC. 
+            A small API allows inference on uploaded .wav files, and GitHub Actions handles automated testing and deployment.
+            <br /><br />
+            <a href="https://github.com/jonathantybirk/instrument-classifier" target="_blank" rel="noopener noreferrer">See the source code on GitHub</a>↗
             <br /><br />
         `
     },
