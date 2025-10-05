@@ -23,6 +23,25 @@ const projects: ProjectDetail[] = [
         `
     },
     {
+        id: 'nemkonto-modernization',
+        imagePath: '/assets/nemkonto-modernization.png',
+        title: 'NemKonto Modernization for Digitaliseringsstyrelsen',
+        developmentTools: "Java, Spring Boot, React, SQL, XSD/XML",
+        shortDescription: "Full-stack development on Denmark's national payment account system",
+        period: 'From May 2025',
+        projectDescription: `
+            Ongoing work on the modernization of <a href="https://www.nemkonto.dk/" target="_blank" rel="noopener noreferrer">NemKonto</a>↗, 
+            the national payment account infrastructure used across Danish public services. 
+            The project is delivered by <a href="https://www.netcompany.com/" target="_blank" rel="noopener noreferrer">Netcompany</a>↗ for Digitaliseringsstyrelsen.
+            <br /><br />
+            I contribute across the stack, building backend services in Java with Spring Boot, 
+            implementing XSD/XML interfaces with external systems, and developing React frontend pages.
+            <br /><br />
+            My responsibilities include designing and implementing new features, integrating SQL components, and writing production-ready code.
+            <br /><br />
+        `
+    },
+    {
         id: 'equivariant-graph-neural-network',
         imagePath: '/assets/equivariant-graph-neural-network.png',
         title: 'Equivariance in LiDAR Point Clouds',
