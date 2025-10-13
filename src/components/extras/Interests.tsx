@@ -9,7 +9,7 @@ const Interests: React.FC = () => {
     <div style={{ textAlign: 'left', paddingLeft: '5px' }}>
       <h3>Media I find inspiring</h3>
       <a href="https://en.wikipedia.org/wiki/Castle_in_the_Sky" target="_blank" rel="noopener noreferrer">
-        The Castle in the Sky (1986 movie)
+        Castle in the Sky (1986 movie)
       </a><br />
       <a href="https://en.wikipedia.org/wiki/The_Lord_of_the_Rings_(film_series)" target="_blank" rel="noopener noreferrer">
         The Lord of the Rings (2001-2003 movie trilogy)
