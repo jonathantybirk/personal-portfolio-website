@@ -160,13 +160,13 @@ const Interests: React.FC = () => {
         <b><i>Economics</i></b> <br />
           Money & Macro (
             <a href="https://www.youtube.com/@MoneyMacro" target="_blank" rel="noopener noreferrer">@MoneyMacro</a>
+          )<br />
           Patrick Boyle (
             <a href="https://www.youtube.com/@PBoyle" target="_blank" rel="noopener noreferrer">@PBoyle</a>
           )<br />
           Wendover Productions (
             <a href="https://www.youtube.com/@Wendoverproductions" target="_blank" rel="noopener noreferrer">@Wendoverproductions</a>
           )<br />
-        )<br />
         <br />
         <b><i>Society</i></b> <br />
           Alex O'Connor (
