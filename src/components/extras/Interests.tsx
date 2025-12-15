@@ -169,6 +169,9 @@ const Interests: React.FC = () => {
         )<br />
         <br />
         <b><i>Society</i></b> <br />
+          Alex O'Connor (
+            <a href="https://www.youtube.com/@CosmicSkeptic" target="_blank" rel="noopener noreferrer">@CosmicSkeptic</a>
+          )<br />
           Bridges Podcast (
             <a href="https://www.youtube.com/@BridgesStudio" target="_blank" rel="noopener noreferrer">@BridgesStudio</a>
           )<br />
