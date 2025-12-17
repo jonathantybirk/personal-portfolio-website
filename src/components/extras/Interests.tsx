@@ -153,9 +153,6 @@ const Interests: React.FC = () => {
           Perun (
             <a href="https://www.youtube.com/@PerunAU" target="_blank" rel="noopener noreferrer">@PerunAU</a>
           )<br />
-          PolyMatter (
-            <a href="https://www.youtube.com/@PolyMatter" target="_blank" rel="noopener noreferrer">@PolyMatter</a>
-          )<br />
         <br />
         <b><i>Economics</i></b> <br />
           Money & Macro (
@@ -163,6 +160,9 @@ const Interests: React.FC = () => {
           )<br />
           Patrick Boyle (
             <a href="https://www.youtube.com/@PBoyle" target="_blank" rel="noopener noreferrer">@PBoyle</a>
+          )<br />
+          PolyMatter (
+            <a href="https://www.youtube.com/@PolyMatter" target="_blank" rel="noopener noreferrer">@PolyMatter</a>
           )<br />
           Wendover Productions (
             <a href="https://www.youtube.com/@Wendoverproductions" target="_blank" rel="noopener noreferrer">@Wendoverproductions</a>
