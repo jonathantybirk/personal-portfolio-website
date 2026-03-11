@@ -14,8 +14,8 @@ const Interests: React.FC = () => {
         <a href="https://en.wikipedia.org/wiki/The_Lord_of_the_Rings_(film_series)" target="_blank" rel="noopener noreferrer">
           The Lord of the Rings (2001-2003 movie trilogy)
         </a><br />
-        <a href="https://en.wikipedia.org/wiki/Interstellar_(film)" target="_blank" rel="noopener noreferrer">
-          Interstellar (2014 movie)
+        <a href="https://en.wikipedia.org/wiki/Inception" target="_blank" rel="noopener noreferrer">
+          Inception (2010 movie)
         </a><br />
         <a href="https://en.wikipedia.org/wiki/Blade_Runner_2049" target="_blank" rel="noopener noreferrer">
           Blade Runner 2049 (2017 movie)
