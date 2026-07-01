@@ -63,6 +63,9 @@ const Interests: React.FC = () => {
           CodeParade (
             <a href="https://www.youtube.com/@CodeParade" target="_blank" rel="noopener noreferrer">@CodeParade</a>
           )<br />
+          Julia Turc (
+            <a href="https://www.youtube.com/@juliaturc1" target="_blank" rel="noopener noreferrer">@juliaturc1</a>
+          )<br />
           Primer (
             <a href="https://www.youtube.com/@PrimerBlobs" target="_blank" rel="noopener noreferrer">@PrimerBlobs</a>
           )<br />
