@@ -78,8 +78,8 @@ const Interests: React.FC = () => {
           Stand-up Maths (
             <a href="https://www.youtube.com/@standupmaths" target="_blank" rel="noopener noreferrer">@standupmaths</a>
           )<br />
-          ThePrimeTime (
-            <a href="https://www.youtube.com/@ThePrimeTimeagen" target="_blank" rel="noopener noreferrer">@ThePrimeTimeagen</a>
+          Welch Labs (
+            <a href="https://www.youtube.com/@WelchLabs" target="_blank" rel="noopener noreferrer">@WelchLabs</a>
           )<br />
         <br />
         <b><i>Science</i></b> <br />
