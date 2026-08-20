@@ -2,7 +2,7 @@
   color: #333;
   background: #f8f8f8;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 1.4;
 }
 
@@ -14,14 +14,14 @@ a:hover { color: #555; }
 img { display: block; max-width: 100%; }
 
 .site-header {
-  min-height: 4.4rem;
+  min-height: 4rem;
   display: flex;
   align-items: center;
   background: #303030;
 }
 
 .site-header nav {
-  width: min(44rem, calc(100% - 2rem));
+  width: min(40rem, calc(100% - 2rem));
   margin: 0 auto;
   display: flex;
   justify-content: center;
@@ -30,13 +30,13 @@ img { display: block; max-width: 100%; }
 
 .site-header a {
   color: #f4f4f4;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
 }
 
 .site-header a.active { text-decoration: underline; text-underline-offset: .35rem; }
 
 main {
-  width: min(44rem, calc(100% - 2rem));
+  width: min(40rem, calc(100% - 2rem));
   margin: 0 auto;
 }
 
@@ -60,7 +60,7 @@ main {
 .home-description { margin: 1.5rem 0 0; }
 .home a:hover { color: #222; }
 
-.projects { padding: .8rem 0 4rem; }
+.projects { padding: .8rem 0 4rem; font-size: 1.1rem; }
 .project-row {
   display: grid;
   grid-template-columns: minmax(9rem, 14rem) minmax(0, 1fr);
@@ -81,7 +81,7 @@ main {
   height: 100%;
   object-fit: contain;
 }
-.project-summary h2 { font-size: 1.25rem; margin: 0 0 .35rem; }
+.project-summary h2 { font-size: 1.35rem; margin: 0 0 .35rem; }
 .project-summary p { margin: .3rem 0; }
 .tools, .period, .project-meta, .experience-period, .experience-role { font-style: italic; color: #555; }
 .period { margin-top: .85rem !important; }
@@ -124,8 +124,8 @@ main {
 .orbiter { position: fixed; inset: 0; width: 100%; height: 100vh; border: 0; }
 
 @media (max-width: 46rem) {
-  .site-header { min-height: 3.8rem; }
-  .site-header a { font-size: 1.05rem; }
+  .site-header { min-height: 3.5rem; }
+  .site-header a { font-size: 1.25rem; }
   .home-top { align-items: flex-start; gap: 1.25rem; }
   .home-top > img { width: min(10rem, 38%); }
   .contact { font-size: 1rem; }
@@ -145,7 +145,7 @@ main {
 }
 
 @media (max-width: 31rem) {
-  main, .site-header nav { width: min(100% - 1.5rem, 44rem); }
+  main, .site-header nav { width: min(100% - 1.5rem, 40rem); }
   .site-header nav { gap: 1.1rem; }
   .home-top { flex-direction: column; }
   .home-top > img { width: min(10rem, 55%); }
