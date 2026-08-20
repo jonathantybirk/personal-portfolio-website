@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 
-const RESUME_PATH = "/website-components/website resume.pdf";
+const RESUME_PATH = "/website-components/jonathan-tybirk-cv.pdf";
 
 const Resume: React.FC = () => {
   useEffect(() => {
