@@ -28,6 +28,11 @@ type Experience = {
 
 // Paths that render standalone pages without the site chrome, so they open in a new tab.
 const standalonePaths = ['/projects/orbiter/demo'];
+const sections = [
+  { label: 'Home', path: '/home' },
+  { label: 'Projects', path: '/projects' },
+  { label: 'Experience', path: '/experience' },
+] as const;
 
 function isExternal(href: string) {
   return /^[a-z][a-z0-9+.-]*:/i.test(href) || standalonePaths.includes(href);
@@ -233,12 +238,8 @@ function experiencePeriod({ start, end }: Experience) {
 function Header() {
   return <header className="site-header">
     <nav aria-label="Main navigation">
-      {[
-        ['Home', '/home'],
-        ['Projects', '/projects'],
-        ['Experience', '/experience'],
-      ].map(([label, href]) =>
-        <a href={href} key={href}>{label}</a>
+      {sections.map(({ label, path }) =>
+        <a href={path} key={path}>{label}</a>
       )}
     </nav>
   </header>;
@@ -307,11 +308,9 @@ function ExperiencePage() {
 
 // Unlinked pages are reachable only by typing the URL.
 const knownPaths = new Set([
-  '/home',
-  '/projects',
+  ...sections.map(({ path }) => path),
   '/projects/orbiter',
   '/projects/orbiter/demo',
-  '/experience',
   '/work',
   '/interests',
   '/resume',
@@ -337,16 +336,15 @@ export default function App() {
     return null;
   }
 
-  const sectionTitles: Record<string, string> = {
-    '/home': 'Home | Jonathan Tybirk',
-    '/projects': 'Projects | Jonathan Tybirk',
-    '/experience': 'Experience | Jonathan Tybirk',
-    '/work': 'Experience | Jonathan Tybirk',
-  };
-  document.title = sectionTitles[resolved] ?? 'Jonathan Tybirk';
+  const isOrbiter = resolved === '/projects/orbiter' || resolved === '/projects/orbiter/demo';
+  const sectionPath = resolved === '/work'
+    ? '/experience'
+    : resolved.startsWith('/projects/') ? '/projects' : resolved;
+  const section = sections.find(({ path }) => path === sectionPath);
+  document.title = isOrbiter ? 'Orbiter' : section ? `${section.label} | Jonathan Tybirk` : 'Jonathan Tybirk';
 
-  if (resolved === '/projects/orbiter' || resolved === '/projects/orbiter/demo') {
-    return <iframe title="Orbiter" src="/website-components/orbiter-demo/index.html" className="orbiter" />;
+  if (isOrbiter) {
+    return <iframe title="Orbiter" src="/website-components/orbiter-demo/index.html" className="fullscreen-frame" />;
   }
   if (resolved === '/interests') return <Interests />;
   if (resolved === '/resume') return <Resume />;
