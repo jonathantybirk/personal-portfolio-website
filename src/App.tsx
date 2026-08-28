@@ -231,7 +231,6 @@ function experiencePeriod({ start, end }: Experience) {
 }
 
 function Header() {
-  const path = window.location.pathname;
   return <header className="site-header">
     <nav aria-label="Main navigation">
       {[
@@ -239,7 +238,7 @@ function Header() {
         ['Projects', '/projects'],
         ['Experience', '/experience'],
       ].map(([label, href]) =>
-        <a className={path.startsWith(href) ? 'active' : ''} href={href} key={href}>{label}</a>
+        <a href={href} key={href}>{label}</a>
       )}
     </nav>
   </header>;
@@ -337,6 +336,15 @@ export default function App() {
     window.location.replace(resolved);
     return null;
   }
+
+  const sectionTitles: Record<string, string> = {
+    '/home': 'Home | Jonathan Tybirk',
+    '/projects': 'Projects | Jonathan Tybirk',
+    '/experience': 'Experience | Jonathan Tybirk',
+    '/work': 'Experience | Jonathan Tybirk',
+  };
+  document.title = sectionTitles[resolved] ?? 'Jonathan Tybirk';
+
   if (resolved === '/projects/orbiter' || resolved === '/projects/orbiter/demo') {
     return <iframe title="Orbiter" src="/website-components/orbiter-demo/index.html" className="orbiter" />;
   }
