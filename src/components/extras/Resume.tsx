@@ -1,8 +1,8 @@
-import React, { useEffect } from "react";
+import { useEffect } from 'react';
 
-const RESUME_PATH = "/website-components/jonathan-tybirk-cv.pdf";
+const RESUME_PATH = '/website-components/jonathan-tybirk-cv.pdf';
 
-const Resume: React.FC = () => {
+export default function Resume() {
   useEffect(() => {
     document.title = "Resume";
     document.body.style.overflowY = "hidden";
@@ -14,9 +14,8 @@ const Resume: React.FC = () => {
   return (
     <iframe
       src={RESUME_PATH}
-      style={{ position: "fixed", top: 0, left: 0, width: "100%", height: "100vh", border: "none", zIndex: 9999 }}
+      title="Jonathan Tybirk's résumé"
+      className="fullscreen-frame"
     />
   );
 }
-
-export default Resume;
