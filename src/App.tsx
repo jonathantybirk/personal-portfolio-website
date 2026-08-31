@@ -141,6 +141,21 @@ const projects: Project[] = [
     links: [{ label: 'Source code', href: 'https://github.com/jonathantybirk/equivariant-mesh-centroid-estimation' }],
   },
   {
+    id: 'llm-bias',
+    title: 'Prompt-Induced Bias in GPT-4o Moral Evaluations',
+    tools: 'GPT-4o, SciPy, statistical analysis',
+    period: 'June 2024',
+    start: '2024-06',
+    end: '2024-06',
+    summary: 'Testing how sentiment and first-person framing affected GPT-4o\'s moral judgments.',
+    image: '/assets/llm-bias-analysis.webp',
+    description: [
+      'For a group project in statistical evaluation, we collected 99 recent interpersonal-conflict posts and evaluated each using six controlled prompt variants, producing 594 GPT-4o responses.',
+      'We varied the stated sentiment and whether the conflict was presented in the first or third person. The results showed systematic framing effects: negative sentiment lowered the model\'s scores, while first-person framing produced harsher judgments in some conditions.',
+    ],
+    links: [{ label: 'Report', href: 'https://github.com/jonathantybirk/Individual-Assignment-02445-course-DTU/blob/main/Group-Assignment.pdf' }],
+  },
+  {
     id: 'multi-agent-pong',
     title: 'Multi-Agent Deep Q-Learning in Pong',
     tools: 'PyTorch, NumPy, Pygame',
