@@ -265,7 +265,6 @@ function Home() {
     <div className="home-top">
       <img src="/assets/profile-photo.webp" alt="Photo of Jonathan Tybirk" decoding="async" fetchPriority="high" />
       <div className="contact">
-        <p><strong>Email:</strong><br />[redacted]</p>
         <p><strong>LinkedIn:</strong><br /><a href="https://www.linkedin.com/in/jonathantybirk/" target="_blank" rel="noopener noreferrer">linkedin.com/in/jonathantybirk/</a></p>
         <p><strong>GitHub:</strong><br /><a href="https://github.com/jonathantybirk/" target="_blank" rel="noopener noreferrer">github.com/jonathantybirk/</a></p>
       </div>
