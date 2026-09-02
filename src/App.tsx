@@ -13,7 +13,8 @@ type Project = {
   start: string;
   end: string;
   summary: string;
-  image: string;
+  image?: string;
+  imageCredit?: string;
   description: string[];
   links?: Link[];
 };
@@ -63,6 +64,20 @@ function byStartThenEnd(a: Dated, b: Dated) {
 }
 
 const projects: Project[] = [
+  {
+    id: 'minecraft-rl',
+    title: 'Deep Reinforcement Learning in Minecraft',
+    tools: 'Dreamer 4, world models, reinforcement learning',
+    period: 'August 2026 – present',
+    start: '2026-08',
+    end: 'present',
+    summary: 'My BSc thesis: working from Dreamer 4 to train Minecraft agents on less compute.',
+    image: '/assets/minecraft-rl.webp',
+    imageCredit: 'Minecraft cube by Albin Olsson, CC BY-SA 3.0, via Wikimedia Commons. Source and licence: /assets/minecraft-rl-credit.txt',
+    description: [
+      'More info coming soon.',
+    ],
+  },
   {
     id: 'flow-matching',
     title: 'World Action Model for 3D View Prediction',
@@ -207,13 +222,6 @@ const experience: Experience[] = [
     description: 'Develop autonomous area-coverage and target-localisation missions for unmanned aircraft. We won the 2026 California Unmanned Aerial Systems Competition.',
   },
   {
-    organisation: 'Hong Kong University of Science and Technology',
-    role: 'Undergraduate Researcher',
-    start: '2026-06',
-    end: '2026-08',
-    description: 'Built a flow-matching world model for future LiDAR scene prediction, from simulated multi-view data through model training and rollout evaluation.',
-  },
-  {
     organisation: 'Technical University of Denmark',
     role: 'Teaching Assistant',
     start: '2024-01',
@@ -280,10 +288,10 @@ function thumb(image: string) {
 
 function Projects() {
   return <main className="projects">
-    {projects.map(project => <article className="project-row" key={project.id}>
-      <a className="project-image" href={`/projects/${project.id}`} aria-label={project.title}>
-        <img src={thumb(project.image)} alt="" loading="lazy" decoding="async" />
-      </a>
+    {projects.map(project => <article className={`project-row${project.image ? '' : ' project-row-text'}`} key={project.id}>
+      {project.image && <a className="project-image" href={`/projects/${project.id}`} aria-label={project.title}>
+        <img src={thumb(project.image)} alt="" title={project.imageCredit} loading="lazy" decoding="async" />
+      </a>}
       <div className="project-summary">
         <h2><a href={`/projects/${project.id}`}>{project.title}</a></h2>
         <p className="tools">{project.tools}</p>
@@ -296,7 +304,7 @@ function Projects() {
 
 function ProjectPage({ project }: { project: Project }) {
   return <main className="project-page">
-    <div className="project-figure"><img src={project.image} alt="" decoding="async" fetchPriority="high" /></div>
+    {project.image && <div className="project-figure"><img src={project.image} alt="" title={project.imageCredit} decoding="async" fetchPriority="high" /></div>}
     <p className="project-meta">{project.tools}<span className="separator"> · </span>{project.period}</p>
     <div className="project-content">
       <h1>{project.title}</h1>
