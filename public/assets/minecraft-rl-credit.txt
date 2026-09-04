@@ -1,7 +1,6 @@
-Minecraft cube by Albin Olsson
-Source: https://commons.wikimedia.org/wiki/File:Minecraft_cube.svg
-Licence: Creative Commons Attribution-ShareAlike 3.0
-https://creativecommons.org/licenses/by-sa/3.0/
+Figure 1 from "Training Agents Inside of Scalable World Models"
+Danijar Hafner, Wilson Yan and Timothy Lillicrap (2025)
+Source: https://arxiv.org/abs/2509.24527
 
-Converted from the Wikimedia PNG rendering to WebP; thumbnail resized.
-No affiliation with or endorsement by Minecraft or Mojang is implied.
+The figure has been cropped and converted to WebP for use as the temporary
+illustration for Jonathan Tybirk's BSc thesis project, which builds on Dreamer 4.

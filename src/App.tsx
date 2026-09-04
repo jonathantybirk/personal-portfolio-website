@@ -73,7 +73,7 @@ const projects: Project[] = [
     end: 'present',
     summary: 'My BSc thesis: working from Dreamer 4 to train Minecraft agents on less compute.',
     image: '/assets/minecraft-rl.webp',
-    imageCredit: 'Minecraft cube by Albin Olsson, CC BY-SA 3.0, via Wikimedia Commons. Source and licence: /assets/minecraft-rl-credit.txt',
+    imageCredit: 'Figure 1 from Training Agents Inside of Scalable World Models by Hafner, Yan and Lillicrap (2025), cropped. Source: arXiv:2509.24527.',
     description: [
       'More info coming soon.',
     ],
@@ -102,9 +102,11 @@ const projects: Project[] = [
     start: '2026-03',
     end: '2026-03',
     summary: 'Forecasting electricity spot prices and bidding on cross-border transmission capacity for the InCommodities Case Crunch.',
+    image: '/assets/electricity-forecasting.webp',
+    imageCredit: 'Final cumulative P&L chart shared by InCommodities after Case Crunch 2026.',
     description: [
       'In a team of two, I placed fourth in the InCommodities Case Crunch, a live market simulation using virtual capital.',
-      'We forecast hourly UK and French electricity spot prices and bid on physical cross-border transmission capacity. Our model topped the validation leaderboard on RMSE after fine-tuning a time-series foundation model with LoRA on two years of hourly data and roughly 120 covariates.',
+      'We forecast hourly UK and French electricity spot prices and bid on physical cross-border transmission capacity. Our model achieved the competition\'s lowest held-out RMSE after fine-tuning a time-series foundation model with LoRA on two years of hourly data and roughly 120 covariates.',
     ],
   },
   {
