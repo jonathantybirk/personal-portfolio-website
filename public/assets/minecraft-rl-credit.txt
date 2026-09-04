@@ -1,6 +1,7 @@
-Figure 1 from "Training Agents Inside of Scalable World Models"
+Figure 2 from "Training Agents Inside of Scalable World Models"
 Danijar Hafner, Wilson Yan and Timothy Lillicrap (2025)
 Source: https://arxiv.org/abs/2509.24527
 
-The figure has been cropped and converted to WebP for use as the temporary
-illustration for Jonathan Tybirk's BSc thesis project, which builds on Dreamer 4.
+The world-model architecture figure has been cropped and converted to WebP
+for use as the illustration for Jonathan Tybirk's BSc thesis project, which
+builds on Dreamer 4.
