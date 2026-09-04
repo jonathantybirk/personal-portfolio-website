@@ -97,7 +97,7 @@ const projects: Project[] = [
   {
     id: 'electricity-forecasting',
     title: 'Electricity Forecasting and Trading',
-    tools: 'Time-series forecasting, LoRA, electricity markets',
+    tools: 'Chronos-2, gradient-boosted trees, electricity markets',
     period: 'March 2026',
     start: '2026-03',
     end: '2026-03',
@@ -106,7 +106,7 @@ const projects: Project[] = [
     imageCredit: 'Final cumulative P&L chart shared by InCommodities after Case Crunch 2026.',
     description: [
       'I placed fourth in the InCommodities Case Crunch, a live market simulation using virtual capital.',
-      'We forecast hourly UK and French electricity spot prices and bid on physical cross-border transmission capacity. Our model achieved the competition\'s lowest held-out RMSE after fine-tuning a time-series foundation model with LoRA on two years of hourly data and roughly 120 covariates.',
+      'We forecast hourly UK and French electricity spot prices and bid on physical cross-border transmission capacity. Our feature-engineered ensemble combined a LoRA-fine-tuned Chronos-2 model with gradient-boosted trees and achieved the competition\'s lowest held-out RMSE.',
     ],
     links: [{ label: 'Source code and analysis', href: 'https://github.com/jonathantybirk/case-crunch-2026' }],
   },
