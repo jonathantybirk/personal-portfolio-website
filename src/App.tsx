@@ -105,9 +105,10 @@ const projects: Project[] = [
     image: '/assets/electricity-forecasting.webp',
     imageCredit: 'Final cumulative P&L chart shared by InCommodities after Case Crunch 2026.',
     description: [
-      'In a team of two, I placed fourth in the InCommodities Case Crunch, a live market simulation using virtual capital.',
+      'I placed fourth in the InCommodities Case Crunch, a live market simulation using virtual capital.',
       'We forecast hourly UK and French electricity spot prices and bid on physical cross-border transmission capacity. Our model achieved the competition\'s lowest held-out RMSE after fine-tuning a time-series foundation model with LoRA on two years of hourly data and roughly 120 covariates.',
     ],
+    links: [{ label: 'Source code and analysis', href: 'https://github.com/jonathantybirk/case-crunch-2026' }],
   },
   {
     id: 'audio-explorers',
