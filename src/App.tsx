@@ -73,7 +73,7 @@ const projects: Project[] = [
     end: 'present',
     summary: 'My BSc thesis: working from Dreamer 4 to train Minecraft agents on less compute.',
     image: '/assets/minecraft-rl.webp',
-    imageCredit: 'Figure 1 from Training Agents Inside of Scalable World Models by Hafner, Yan and Lillicrap (2025), cropped. Source: arXiv:2509.24527.',
+    imageCredit: 'Figure 2 from Training Agents Inside of Scalable World Models by Hafner, Yan and Lillicrap (2025), cropped. Source: arXiv:2509.24527.',
     description: [
       'More info coming soon.',
     ],
