@@ -95,6 +95,19 @@ const projects: Project[] = [
     links: [{ label: 'Source code', href: 'https://github.com/jonathantybirk/lidar-flow-matching' }],
   },
   {
+    id: 'electricity-forecasting',
+    title: 'Electricity Forecasting and Trading',
+    tools: 'Time-series forecasting, LoRA, electricity markets',
+    period: 'March 2026',
+    start: '2026-03',
+    end: '2026-03',
+    summary: 'Forecasting electricity spot prices and bidding on cross-border transmission capacity for the InCommodities Case Crunch.',
+    description: [
+      'In a team of two, I placed fourth in the InCommodities Case Crunch, a live market simulation using virtual capital.',
+      'We forecast hourly UK and French electricity spot prices and bid on physical cross-border transmission capacity. Our model topped the validation leaderboard on RMSE after fine-tuning a time-series foundation model with LoRA on two years of hourly data and roughly 120 covariates.',
+    ],
+  },
+  {
     id: 'audio-explorers',
     title: 'Audio Explorers 2026',
     tools: 'Python, source separation, signal processing',
