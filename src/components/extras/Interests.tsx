@@ -26,8 +26,7 @@ const Interests: React.FC = () => {
         <a href="https://en.wikipedia.org/wiki/Everything_Everywhere_All_at_Once" target="_blank" rel="noopener noreferrer">
           Everything Everywhere All at Once (2022 movie)
         </a><br />
-      <br />
-      <h3>YouTube channels I learn from</h3>
+      <h3>YouTube channels I like</h3>
         <b><i>Math and computers</i></b> <br />
           3Blue1Brown (
             <a href="https://www.youtube.com/@3blue1brown" target="_blank" rel="noopener noreferrer">@3blue1brown</a>
