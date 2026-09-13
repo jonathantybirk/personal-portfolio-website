@@ -78,7 +78,7 @@ const Interests: React.FC = () => {
             <a href="https://www.youtube.com/@Waveform" target="_blank" rel="noopener noreferrer">@Waveform</a>
           )<br />
         <br />
-        <b><i>Health</i></b> <br />
+        <b><i>Health, fitness and outdoors</i></b> <br />
           Adam Ragusea (
             <a href="https://www.youtube.com/@aragusea" target="_blank" rel="noopener noreferrer">@aragusea</a>
           )<br />
@@ -90,6 +90,12 @@ const Interests: React.FC = () => {
           )<br />
           Renaissance Periodization (
             <a href="https://www.youtube.com/@RenaissancePeriodization" target="_blank" rel="noopener noreferrer">@RenaissancePeriodization</a>
+          )<br />
+          Magnus Midtbø (
+            <a href="https://www.youtube.com/@magmidt" target="_blank" rel="noopener noreferrer">@magmidt</a>
+          )<br />
+          Outdoor Boys (
+            <a href="https://www.youtube.com/@OutdoorBoys" target="_blank" rel="noopener noreferrer">@OutdoorBoys</a>
           )<br />
         <br />
         <b><i>Martial arts</i></b> <br />
@@ -159,6 +165,9 @@ const Interests: React.FC = () => {
         <b><i>Art and media</i></b> <br />
           Big Joel (
             <a href="https://www.youtube.com/@BigJoel" target="_blank" rel="noopener noreferrer">@BigJoel</a>
+          )<br />
+          IHE TV (
+            <a href="https://www.youtube.com/@IHE_TV" target="_blank" rel="noopener noreferrer">@IHE_TV</a>
           )<br />
           In Deep Geek (
             <a href="https://www.youtube.com/@InDeepGeek" target="_blank" rel="noopener noreferrer">@InDeepGeek</a>
