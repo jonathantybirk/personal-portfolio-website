@@ -108,6 +108,8 @@ main {
 .project-content { max-width: 40rem; margin: 0 auto; }
 .project-content h1 { margin: 2.25rem 0 1rem; font-size: clamp(1.6rem, 4.5vw, 2rem); }
 .project-content p { margin: 0 0 1rem; }
+
+.interests h3 { margin-bottom: 0.35rem; }
 .project-links { display: flex; flex-wrap: wrap; gap: 1.25rem; margin-top: 1.75rem; }
 .project-links a { font-weight: bold; }
 

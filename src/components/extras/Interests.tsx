@@ -6,7 +6,7 @@ const Interests: React.FC = () => {
   }, []);
 
   return (
-    <div style={{ textAlign: 'left', paddingLeft: '5px' }}>
+    <div className="interests" style={{ textAlign: 'left', paddingLeft: '5px' }}>
       <h3>Media I find inspiring</h3>
         <a href="https://en.wikipedia.org/wiki/Castle_in_the_Sky" target="_blank" rel="noopener noreferrer">
           Castle in the Sky (1986 movie)
@@ -27,38 +27,10 @@ const Interests: React.FC = () => {
           Everything Everywhere All at Once (2022 movie)
         </a><br />
       <br />
-      <h3>Philosophers I resonate with</h3>
-        <a href="https://en.wikipedia.org/wiki/John_Stuart_Mill" target="_blank" rel="noopener noreferrer">
-          John Stuart Mill (b. 1806)
-        </a><br />
-        <a href="https://en.wikipedia.org/wiki/Karl_Popper" target="_blank" rel="noopener noreferrer">
-          Karl Popper (b. 1902)
-        </a><br />
-        <a href="https://en.wikipedia.org/wiki/Albert_Camus" target="_blank" rel="noopener noreferrer">
-          Albert Camus (b. 1913)
-        </a><br />
-      <br />
-      <h3>People who influence me</h3>
-        <a href="https://en.wikipedia.org/wiki/Francis_Fukuyama" target="_blank" rel="noopener noreferrer">
-          Francis Fukuyama (b. 1952)
-        </a><br />
-        <a href="https://en.wikipedia.org/wiki/Sarah_C._M._Paine" target="_blank" rel="noopener noreferrer">
-          Sarah C. M. Paine (b. 1957)
-        </a><br />
-        <a href="https://en.wikipedia.org/wiki/Paul_Graham_(programmer)" target="_blank" rel="noopener noreferrer">
-          Paul Graham (b. 1964)
-        </a><br />
-        <a href="https://en.wikipedia.org/wiki/Hank_Green" target="_blank" rel="noopener noreferrer">
-          Hank Green (b. 1980)
-        </a><br />
-      <br />
       <h3>YouTube channels I learn from</h3>
         <b><i>Math and computers</i></b> <br />
           3Blue1Brown (
             <a href="https://www.youtube.com/@3blue1brown" target="_blank" rel="noopener noreferrer">@3blue1brown</a>
-          )<br />
-          Ben Eater (
-            <a href="https://www.youtube.com/@BenEater" target="_blank" rel="noopener noreferrer">@BenEater</a>
           )<br />
           CodeParade (
             <a href="https://www.youtube.com/@CodeParade" target="_blank" rel="noopener noreferrer">@CodeParade</a>
@@ -78,16 +50,13 @@ const Interests: React.FC = () => {
           Stand-up Maths (
             <a href="https://www.youtube.com/@standupmaths" target="_blank" rel="noopener noreferrer">@standupmaths</a>
           )<br />
-          Welch Labs (
-            <a href="https://www.youtube.com/@WelchLabs" target="_blank" rel="noopener noreferrer">@WelchLabs</a>
-          )<br />
         <br />
         <b><i>Science</i></b> <br />
           Isaac Arthur (
             <a href="https://www.youtube.com/@isaacarthurSFIA" target="_blank" rel="noopener noreferrer">@isaacarthurSFIA</a>
           )<br />
-          Kurzgesagt – In a Nutshell (
-            <a href="https://www.youtube.com/@kurzgesagt" target="_blank" rel="noopener noreferrer">@kurzgesagt</a>
+          The Space Race (
+            <a href="https://www.youtube.com/@TheSpaceRaceYT" target="_blank" rel="noopener noreferrer">@TheSpaceRaceYT</a>
           )<br />
           Sabine Hossenfelder (
             <a href="https://www.youtube.com/@SabineHossenfelder" target="_blank" rel="noopener noreferrer">@SabineHossenfelder</a>
@@ -181,8 +150,8 @@ const Interests: React.FC = () => {
           hankschannel (
             <a href="https://www.youtube.com/@hankschannel" target="_blank" rel="noopener noreferrer">@hankschannel</a>
           )<br />
-          Knowing Better (
-            <a href="https://www.youtube.com/@KnowingBetter" target="_blank" rel="noopener noreferrer">@KnowingBetter</a>
+          Jonas Laursen (
+            <a href="https://www.youtube.com/@jonasblaursen" target="_blank" rel="noopener noreferrer">@jonasblaursen</a>
           )<br />
           Tom Scott (
             <a href="https://www.youtube.com/@TomScottGo" target="_blank" rel="noopener noreferrer">@TomScottGo</a>
