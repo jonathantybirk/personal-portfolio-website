@@ -224,10 +224,17 @@ const projects: Project[] = [
 
 const experience: Experience[] = [
   {
+    organisation: 'Qualia',
+    role: 'Research Intern',
+    start: '2026-09',
+    end: 'present',
+    description: 'Conduct robotics research and evaluations, with a focus on robot learning and world models.',
+  },
+  {
     organisation: 'HIVE Robots',
     role: 'Robotics Machine Learning Engineer',
     start: '2026-01',
-    end: 'present',
+    end: '2026-09',
     description: 'Develop humanoid-robot manipulation systems, including teleoperation data collection and the training and evaluation of vision-language-action models.',
   },
   {
