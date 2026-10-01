@@ -65,6 +65,20 @@ function byStartThenEnd(a: Dated, b: Dated) {
 
 const projects: Project[] = [
   {
+    id: 'reins',
+    title: 'Reins',
+    tools: 'Vision-language models, MuJoCo, Unitree R1',
+    period: 'September 2026',
+    start: '2026-09',
+    end: '2026-09',
+    summary: 'A model-agnostic harness for robot control, built at a hackathon in Warsaw, with human review of planned movements.',
+    image: '/assets/reins.webp',
+    description: [
+      'More info coming soon.',
+    ],
+    links: [{ label: 'Source code', href: 'https://github.com/arturaah/reins' }],
+  },
+  {
     id: 'minecraft-rl',
     title: 'Deep Reinforcement Learning in Minecraft',
     tools: 'Dreamer 4, world models, reinforcement learning',
