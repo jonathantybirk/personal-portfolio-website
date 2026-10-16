@@ -65,6 +65,19 @@ function byStartThenEnd(a: Dated, b: Dated) {
 
 const projects: Project[] = [
   {
+    id: 'nla-interpretability',
+    title: 'Natural Language Autoencoders for AI Interpretability',
+    tools: 'Python, natural language autoencoders, activation steering, HPC',
+    period: 'October 2026 – present',
+    start: '2026-10',
+    end: 'present',
+    summary: 'Investigating how natural-language explanations of model activations can help us understand and steer language models, with Lucas Pedersen.',
+    description: [
+      'More info coming soon.',
+    ],
+    links: [{ label: 'Source code', href: 'https://github.com/LucasLista/nla-playground' }],
+  },
+  {
     id: 'reins',
     title: 'Reins',
     tools: 'Vision-language models, MuJoCo, Unitree R1',
