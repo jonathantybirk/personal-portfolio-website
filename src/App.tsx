@@ -66,12 +66,13 @@ function byStartThenEnd(a: Dated, b: Dated) {
 const projects: Project[] = [
   {
     id: 'nla-interpretability',
-    title: 'Natural Language Autoencoders for AI Interpretability',
-    tools: 'Python, natural language autoencoders, activation steering, HPC',
-    period: 'October 2026 – present',
+    title: 'Red-Teaming with Natural Language Autoencoders',
+    tools: 'Natural language autoencoders, activation steering, HPC',
+    period: 'October 2026',
     start: '2026-10',
-    end: 'present',
-    summary: 'Investigating how natural-language explanations of model activations can help us understand and steer language models, with Lucas Pedersen.',
+    end: '2026-10',
+    summary: 'Red-teaming language models through adversarial edits to natural-language explanations of their activations, then decoding those edits back into activation space to steer generation.',
+    image: '/assets/nla-interpretability.webp',
     description: [
       'More info coming soon.',
     ],
