@@ -55,10 +55,6 @@ function dateKey(value: string) {
 
 type Dated = { start: string; end: string };
 
-function byEndThenStart(a: Dated, b: Dated) {
-  return dateKey(b.end) - dateKey(a.end) || dateKey(b.start) - dateKey(a.start);
-}
-
 function byStartThenEnd(a: Dated, b: Dated) {
   return dateKey(b.start) - dateKey(a.start) || dateKey(b.end) - dateKey(a.end);
 }
@@ -104,6 +100,7 @@ const projects: Project[] = [
     start: '2026-08',
     end: 'present',
     summary: 'My BSc thesis: racing to build the world’s first autonomous Minecraft agent.',
+    image: '/assets/minecraft-rl.webp',
     description: [
       'I am developing a System 1 control harness for a reasoning LLM.',
       'For safe navigation, I fine-tuned a reasoning-conditioned decision model through teacher-guided behavior cloning and deep reinforcement learning.',
@@ -254,7 +251,7 @@ const projects: Project[] = [
       { label: 'Play the spaceflight game', href: '/projects/orbiter/demo' },
     ],
   },
-].sort(byEndThenStart);
+].sort(byStartThenEnd);
 
 const experience: Experience[] = [
   {
