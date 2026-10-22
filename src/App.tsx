@@ -85,10 +85,7 @@ const projects: Project[] = [
     image: '/assets/reins.webp',
     imageCredit: 'Planned hand paths for the Unitree R1, rendered in MuJoCo for the AR preview.',
     description: [
-      'Over a weekend at the Alien Bazaar hackathon in Warsaw, five of us got a Unitree R1 humanoid and tested whether frontier vision-language models can control a robot directly, without robot-specific fine-tuning.',
-      'Reins gives the model a set of end-effector moves and the robot\'s cameras. Before anything moves, the planned motion is shown to a human operator, who accepts or rejects it with feedback. Recorded demonstrations and earlier feedback go back into the model\'s context for the next proposal.',
-      'I built the trajectory preview: the planned paths of both hands drawn over a MuJoCo replay of the robot, and a prototype AR version for Snap Spectacles that anchors the paths to tracking cards on the robot\'s shoulders.',
-      'The models handled simple arm motions well, but each trajectory took around 20 seconds to generate, and more complex tasks did not work out of the box.',
+      'At the Alien Bazaar hackathon in Warsaw, we tested whether frontier vision-language models can control a Unitree R1 humanoid without robot-specific fine-tuning. The model plans each move, and a human previews and approves it in MuJoCo or AR before the robot acts.',
     ],
     links: [{ label: 'Source code', href: 'https://github.com/arturaah/reins' }],
   },
@@ -99,11 +96,9 @@ const projects: Project[] = [
     period: 'August 2026 – present',
     start: '2026-08',
     end: 'present',
-    summary: 'My BSc thesis: racing to build the world’s first autonomous Minecraft agent.',
+    summary: '',
     image: '/assets/minecraft-rl.webp',
     description: [
-      'I am developing a System 1 control harness for a reasoning LLM.',
-      'For safe navigation, I fine-tuned a reasoning-conditioned decision model through teacher-guided behavior cloning and deep reinforcement learning.',
       'More info coming soon.',
     ],
   },
@@ -272,8 +267,8 @@ const experience: Experience[] = [
     organisation: 'DTU RAVEN',
     role: 'Autonomous Systems Software Engineer',
     start: '2025-12',
-    end: 'present',
-    description: 'Developing autonomous area-coverage and target-localisation missions for unmanned aircraft. We won the 2026 California Unmanned Aerial Systems Competition.',
+    end: '2026-09',
+    description: 'Developed autonomous area-coverage and target-localisation missions for unmanned aircraft. We won the 2026 California Unmanned Aerial Systems Competition.',
   },
   {
     organisation: 'Technical University of Denmark',
@@ -349,7 +344,7 @@ function Projects() {
       <div className="project-summary">
         <h2><a href={`/projects/${project.id}`}>{project.title}</a></h2>
         <p className="tools">{project.tools}</p>
-        <p>{project.summary}</p>
+        {project.summary && <p>{project.summary}</p>}
         <p className="period">{project.period}</p>
       </div>
     </article>)}
