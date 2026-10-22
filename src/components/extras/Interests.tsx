@@ -54,11 +54,11 @@ const Interests: React.FC = () => {
           Isaac Arthur (
             <a href="https://www.youtube.com/@isaacarthurSFIA" target="_blank" rel="noopener noreferrer">@isaacarthurSFIA</a>
           )<br />
-          The Space Race (
-            <a href="https://www.youtube.com/@TheSpaceRaceYT" target="_blank" rel="noopener noreferrer">@TheSpaceRaceYT</a>
-          )<br />
           Sabine Hossenfelder (
             <a href="https://www.youtube.com/@SabineHossenfelder" target="_blank" rel="noopener noreferrer">@SabineHossenfelder</a>
+          )<br />
+          The Space Race (
+            <a href="https://www.youtube.com/@TheSpaceRaceYT" target="_blank" rel="noopener noreferrer">@TheSpaceRaceYT</a>
           )<br />
           Veritasium (
             <a href="https://www.youtube.com/@veritasium" target="_blank" rel="noopener noreferrer">@veritasium</a>
@@ -88,25 +88,25 @@ const Interests: React.FC = () => {
           HealthyGamerGG (
             <a href="https://www.youtube.com/@HealthyGamerGG" target="_blank" rel="noopener noreferrer">@HealthyGamerGG</a>
           )<br />
-          Renaissance Periodization (
-            <a href="https://www.youtube.com/@RenaissancePeriodization" target="_blank" rel="noopener noreferrer">@RenaissancePeriodization</a>
-          )<br />
           Magnus Midtbø (
             <a href="https://www.youtube.com/@magmidt" target="_blank" rel="noopener noreferrer">@magmidt</a>
           )<br />
           Outdoor Boys (
             <a href="https://www.youtube.com/@OutdoorBoys" target="_blank" rel="noopener noreferrer">@OutdoorBoys</a>
           )<br />
+          Renaissance Periodization (
+            <a href="https://www.youtube.com/@RenaissancePeriodization" target="_blank" rel="noopener noreferrer">@RenaissancePeriodization</a>
+          )<br />
         <br />
         <b><i>Martial arts</i></b> <br />
           hard2hurt (
             <a href="https://www.youtube.com/@hard2hurt" target="_blank" rel="noopener noreferrer">@hard2hurt</a>
           )<br />
-          USDC by Rokas Leo (
-            <a href="https://www.youtube.com/@usdc.rokasleo" target="_blank" rel="noopener noreferrer">@usdc.rokasleo</a>
-          )<br />
           Sensei Seth (
             <a href="https://www.youtube.com/@SenseiSeth" target="_blank" rel="noopener noreferrer">@SenseiSeth</a>
+          )<br />
+          USDC by Rokas Leo (
+            <a href="https://www.youtube.com/@usdc.rokasleo" target="_blank" rel="noopener noreferrer">@usdc.rokasleo</a>
           )<br />
         <br />
         <b><i>Business</i></b> <br />
@@ -149,9 +149,6 @@ const Interests: React.FC = () => {
           Alex O'Connor (
             <a href="https://www.youtube.com/@CosmicSkeptic" target="_blank" rel="noopener noreferrer">@CosmicSkeptic</a>
           )<br />
-          Bridges Podcast (
-            <a href="https://www.youtube.com/@BridgesStudio" target="_blank" rel="noopener noreferrer">@BridgesStudio</a>
-          )<br />
           hankschannel (
             <a href="https://www.youtube.com/@hankschannel" target="_blank" rel="noopener noreferrer">@hankschannel</a>
           )<br />
@@ -163,9 +160,6 @@ const Interests: React.FC = () => {
           )<br />
         <br />
         <b><i>Art and media</i></b> <br />
-          Big Joel (
-            <a href="https://www.youtube.com/@BigJoel" target="_blank" rel="noopener noreferrer">@BigJoel</a>
-          )<br />
           IHE TV (
             <a href="https://www.youtube.com/@IHE_TV" target="_blank" rel="noopener noreferrer">@IHE_TV</a>
           )<br />
