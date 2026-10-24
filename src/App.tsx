@@ -254,14 +254,14 @@ const experience: Experience[] = [
     role: 'Robotics & ML Research Intern',
     start: '2026-09',
     end: 'present',
-    description: 'Calibrating Isaac Sim for our OpenArm robot to validate training checkpoints in simulation, and running ablation studies on vision-language-action models.',
+    description: 'Conducting robot-learning research, with a focus on evaluating vision-language-action models in simulation.',
   },
   {
     organisation: 'HIVE Robots',
     role: 'Robotics Machine Learning Engineer',
     start: '2026-01',
     end: '2026-09',
-    description: 'Built a post-training pipeline for vision-language-action models on a Unitree G1 humanoid, from teleoperation data collection through autonomous evaluation. The resulting policies outperformed expert teleoperation on some tasks.',
+    description: 'Trained humanoid robots to perform manipulation tasks autonomously using vision-language-action models. Our policies outperformed expert teleoperation on some tasks.',
   },
   {
     organisation: 'DTU RAVEN',
