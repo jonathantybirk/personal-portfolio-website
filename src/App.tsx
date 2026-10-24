@@ -251,17 +251,17 @@ const projects: Project[] = [
 const experience: Experience[] = [
   {
     organisation: 'Qualia',
-    role: 'Research Intern',
+    role: 'Robotics & ML Research Intern',
     start: '2026-09',
     end: 'present',
-    description: 'Conducting robotics research and evaluations, with a focus on robot learning and world models.',
+    description: 'Calibrating Isaac Sim for our OpenArm robot to validate training checkpoints in simulation, and running ablation studies on vision-language-action models.',
   },
   {
     organisation: 'HIVE Robots',
     role: 'Robotics Machine Learning Engineer',
     start: '2026-01',
     end: '2026-09',
-    description: 'Developed humanoid-robot manipulation systems, including teleoperation data collection and the training and evaluation of vision-language-action models.',
+    description: 'Built a post-training pipeline for vision-language-action models on a Unitree G1 humanoid, from teleoperation data collection through autonomous evaluation. The resulting policies outperformed expert teleoperation on some tasks.',
   },
   {
     organisation: 'DTU RAVEN',
@@ -290,6 +290,13 @@ const experience: Experience[] = [
     start: '2025-05',
     end: '2026-02',
     description: 'Worked across backend services, system interfaces and frontend pages on the modernisation of Denmark’s national payment-account system.',
+  },
+  {
+    organisation: 'Danish Armed Forces',
+    role: 'Army Enlistee',
+    start: '2022-08',
+    end: '2022-11',
+    description: 'Completed army basic training in Rønne, learning to cooperate and maintain focus under difficult conditions.',
   },
 ].sort(byStartThenEnd);
 
