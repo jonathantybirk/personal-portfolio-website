@@ -261,7 +261,7 @@ const experience: Experience[] = [
     role: 'Robotics Machine Learning Engineer',
     start: '2026-01',
     end: '2026-09',
-    description: 'Trained humanoid robots to perform manipulation tasks autonomously using vision-language-action models. Our policies outperformed expert teleoperation on some tasks.',
+    description: 'Trained humanoid robots to perform manipulation tasks autonomously using vision-language-action models.',
   },
   {
     organisation: 'DTU RAVEN',
@@ -296,7 +296,7 @@ const experience: Experience[] = [
     role: 'Army Enlistee',
     start: '2022-08',
     end: '2022-11',
-    description: 'Completed army basic training in Rønne, learning to cooperate and maintain focus under difficult conditions.',
+    description: 'Completed army basic training in Rønne.',
   },
 ].sort(byStartThenEnd);
 
