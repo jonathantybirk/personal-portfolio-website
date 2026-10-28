@@ -90,6 +90,21 @@ const projects: Project[] = [
     links: [{ label: 'Source code', href: 'https://github.com/arturaah/reins' }],
   },
   {
+    id: 'doubleshot',
+    title: 'Doubleshot',
+    tools: 'C, macOS, launchd, Homebrew',
+    period: 'September 2026',
+    start: '2026-09',
+    end: '2026-09',
+    summary: 'A command-line tool that keeps a Mac awake with the lid closed while a terminal session or command runs.',
+    image: '/assets/doubleshot.webp',
+    description: [
+      'Running dshot keeps the Mac awake with the lid closed until the terminal closes, the command finishes or a timer runs out. Then normal sleep returns, so there is nothing to remember to turn back on.',
+      'It is written in C and installs through Homebrew. Several sessions can run at once, and a launchd service restores sleep if a client crashes.',
+    ],
+    links: [{ label: 'Source code', href: 'https://github.com/jonathantybirk/doubleshot' }],
+  },
+  {
     id: 'minecraft-rl',
     title: 'Autonomous Minecraft Speedrunner',
     tools: 'Reasoning LLMs, behavior cloning, deep reinforcement learning',
